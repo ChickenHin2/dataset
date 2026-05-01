@@ -47,7 +47,6 @@ query SearchRepos($q: String!, $first: Int!, $after: String) {
         createdAt
         updatedAt
         pushedAt
-        isMirror
         diskUsage
         isInOrganization
         name
