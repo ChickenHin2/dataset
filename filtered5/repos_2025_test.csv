@@ -1,0 +1,12 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCountR_kgDOQxkplA,2025-12-31T08:27:03Z,2026-04-27T09:50:25Z,2026-04-27T09:50:21Z,56503,False,nextGPU-sunshine,bluefml1/nextGPU-sunshine,git@github.com:bluefml1/nextGPU-sunshine.git,0,configure,build,test,error
+R_kgDOQxkplA,2025-12-31T08:27:03Z,2026-04-27T09:50:25Z,2026-04-27T09:50:21Z,56503,False,nextGPU-sunshine,bluefml1/nextGPU-sunshine,git@github.com:bluefml1/nextGPU-sunshine.git,0,,,,,,,,,,False,False,False,"cmake configure failed (rc=1): 
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+-- Generating done (0.2s)
+CMake Generate step failed.  Build files cannot be regenerated correctly."

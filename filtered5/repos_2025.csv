@@ -1,0 +1,44 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQxccdQ,2025-12-31T02:05:05Z,2026-03-08T00:50:19Z,2026-03-08T00:50:15Z,2430,False,infer-play,N-E-E/infer-play,git@github.com:N-E-E/infer-play.git,0,False,False,False,"cmake configure failed (rc=1): nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  /opt/homebrew/share/cmake/Modules/CMakeDetermineCUDACompiler.cmake:109 (cmake_cuda_find_toolkit)
+  CMakeLists.txt:8 (project)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQxIWJQ,2025-12-30T12:09:07Z,2026-05-06T03:53:41Z,2026-05-06T03:53:38Z,13547,True,pto-isa,cannmirror/pto-isa,git@github.com:cannmirror/pto-isa.git,1,False,False,False,"cmake configure failed (rc=1): nt.cmake:2155 (cmake_language)
+  /opt/homebrew/share/cmake/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)
+  cmake/third_party/makeself-fetch.cmake:31 (FetchContent_MakeAvailable)
+  cmake/package.cmake:13 (include)
+  CMakeLists.txt:12 (include)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQxDKxw,2025-12-30T09:09:39Z,2026-04-22T03:46:43Z,2026-05-05T06:29:31Z,2593,True,inheritance-chess,ObsidianHonorCoders/inheritance-chess,git@github.com:ObsidianHonorCoders/inheritance-chess.git,2,False,False,False,"cmake configure failed (rc=1): - Found Python3: /Users/zhangxin/Documents/graduation/scripts/.venv/bin/python3.14 (found version ""3.14.3"") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Configuring incomplete, errors occurred!"
+R_kgDOQw3u3Q,2025-12-30T00:49:10Z,2026-05-01T04:34:40Z,2026-05-01T04:34:36Z,2713,False,CK2,doyaGu/CK2,git@github.com:doyaGu/CK2.git,0,False,False,False,"cmake configure failed (rc=1): I info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:38 (message):
+  CK2 only supports Windows.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQwtW5g,2025-12-29T17:02:02Z,2026-05-04T09:14:47Z,2026-05-04T09:14:49Z,1071,False,sts_hardware_interface,adityakamath/sts_hardware_interface,git@github.com:adityakamath/sts_hardware_interface.git,11,False,False,False,"cmake configure failed (rc=1): g.cmake
+
+  Add the installation prefix of ""ament_cmake"" to CMAKE_PREFIX_PATH or set
+  ""ament_cmake_DIR"" to a directory containing one of the above files.  If
+  ""ament_cmake"" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQwXYvw,2025-12-29T03:54:54Z,2026-05-06T06:27:18Z,2026-05-06T06:27:36Z,2328,True,gn10-can,ararobo/gn10-can,git@github.com:ararobo/gn10-can.git,5,True,False,False,""
