@@ -1,0 +1,8 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:vtz/opensomeip.git  (cwd=repos)
+Cloning into 'opensomeip'...
+Submodule 'open-someip-spec' (https://github.com/some-ip-com/open-someip-spec.git) registered for path 'open-someip-spec'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/opensomeip/open-someip-spec'...
+From https://github.com/some-ip-com/open-someip-spec
+ * branch            c84ed01c11be36377a43fc63b82cf082f64d4f6d -> FETCH_HEAD
+Submodule path 'open-someip-spec': checked out 'c84ed01c11be36377a43fc63b82cf082f64d4f6d'

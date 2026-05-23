@@ -1,0 +1,19 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/take_before)
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMake version is less than 4.3, configuring cmake_instrumentation is unavailable.
+CMake Error at /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:233 (message):
+  Could NOT find GTest (missing: GTEST_LIBRARY GTEST_INCLUDE_DIR
+  GTEST_MAIN_LIBRARY)
+Call Stack (most recent call first):
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindGTest.cmake:273 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tests/beman/take_before/CMakeLists.txt:3 (find_package)
+
+
+-- Configuring incomplete, errors occurred!

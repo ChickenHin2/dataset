@@ -1,0 +1,95 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQrmUCw,2025-12-19T09:55:25Z,2026-04-09T17:33:07Z,2026-04-23T14:12:23Z,11305,True,entservices-framerate,rdkcentral/entservices-framerate,git@github.com:rdkcentral/entservices-framerate.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmQxA,2025-12-19T09:53:53Z,2026-05-04T14:50:42Z,2026-05-05T08:29:47Z,11791,True,entservices-displaysettings,rdkcentral/entservices-displaysettings,git@github.com:rdkcentral/entservices-displaysettings.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmNvg,2025-12-19T09:52:29Z,2026-04-09T17:33:07Z,2026-05-06T10:49:50Z,11344,True,entservices-deviceinfo,rdkcentral/entservices-deviceinfo,git@github.com:rdkcentral/entservices-deviceinfo.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:41 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:44 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmKvA,2025-12-19T09:50:56Z,2026-05-06T08:49:41Z,2026-05-06T08:49:37Z,11700,True,entservices-devicediagnostics,rdkcentral/entservices-devicediagnostics,git@github.com:rdkcentral/entservices-devicediagnostics.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrWFug,2025-12-18T22:28:42Z,2026-04-21T10:19:49Z,2026-03-20T08:30:56Z,1513,True,visual_inertial_bundle_adjustment,facebookresearch/visual_inertial_bundle_adjustment,org-16943930@github.com:facebookresearch/visual_inertial_bundle_adjustment.git,97,False,False,False,"cmake configure failed (rc=1): StandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+  deps/projectaria_tools/cmake/FindOpus.cmake:32 (find_package_handle_standard_args)
+  deps/projectaria_tools/cmake/Setup3rdParty.cmake:18 (find_package)
+  deps/projectaria_tools/CMakeLists.txt:71 (include)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrViKg,2025-12-18T22:01:37Z,2026-04-22T21:15:47Z,2026-05-03T22:08:07Z,142517,True,mujoco,allenai/mujoco,git@github.com:allenai/mujoco.git,0,False,False,False,"cmake configure failed (rc=1): s.  Use -Wno-dev to suppress it.
+
+-- Including Wayland support
+-- Including X11 support
+-- Looking for memfd_create
+-- Looking for memfd_create - found
+CMake Error at build/_deps/glfw3-src/src/CMakeLists.txt:76 (message):
+  Failed to find wayland-scanner
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrHQZw,2025-12-18T14:15:43Z,2026-04-09T17:28:29Z,2026-04-15T04:26:56Z,738,True,entservices-motiondetection,rdkcentral/entservices-motiondetection,git@github.com:rdkcentral/entservices-motiondetection.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrHJTw,2025-12-18T14:12:47Z,2026-04-09T17:17:51Z,2026-05-06T05:41:00Z,819,True,entservices-ledcontrol,rdkcentral/entservices-ledcontrol,git@github.com:rdkcentral/entservices-ledcontrol.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrHFaQ,2025-12-18T14:11:12Z,2026-04-09T17:26:54Z,2026-04-23T17:23:03Z,871,True,entservices-frontpanel,rdkcentral/entservices-frontpanel,git@github.com:rdkcentral/entservices-frontpanel.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:34 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:37 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrFYJg,2025-12-18T13:23:26Z,2026-04-20T01:25:07Z,2026-04-20T01:25:02Z,1882,False,llm_on_riscv,believebest35/llm_on_riscv,git@github.com:believebest35/llm_on_riscv.git,0,True,True,True,

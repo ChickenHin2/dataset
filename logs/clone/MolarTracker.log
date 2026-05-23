@@ -1,0 +1,24 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:97gamjak/MolarTracker.git  (cwd=repos)
+Cloning into 'MolarTracker'...
+Submodule 'external/devops' (https://github.com/97gamjak/devops.git) registered for path 'external/devops'
+Submodule 'external/json' (https://github.com/nlohmann/json.git) registered for path 'external/json'
+Submodule 'external/mstd' (https://github.com/97gamjak/mstd) registered for path 'external/mstd'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/MolarTracker/external/devops'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/MolarTracker/external/json'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/MolarTracker/external/mstd'...
+Submodule path 'external/devops': checked out 'a1af2f4bc90ed81180d4801626bc12d24f2f2383'
+From https://github.com/nlohmann/json
+ * branch            515d994acbac04e0efa41db21e0d16591f6f97c9 -> FETCH_HEAD
+Submodule path 'external/json': checked out '515d994acbac04e0efa41db21e0d16591f6f97c9'
+Submodule path 'external/mstd': checked out '027554ac3113a12a080a953516c19d6011f20d62'
+Submodule 'external/Catch2' (https://github.com/catchorg/Catch2) registered for path 'external/mstd/external/Catch2'
+Submodule 'external/devops' (https://github.com/97gamjak/devops) registered for path 'external/mstd/external/devops'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/MolarTracker/external/mstd/external/Catch2'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/MolarTracker/external/mstd/external/devops'...
+From https://github.com/catchorg/Catch2
+ * branch            3e82ef9317d4bb43d81b660404db3c3c5880aa7d -> FETCH_HEAD
+Submodule path 'external/mstd/external/Catch2': checked out '3e82ef9317d4bb43d81b660404db3c3c5880aa7d'
+From https://github.com/97gamjak/devops
+ * branch            c3be8da2dfa9abc382d8680746c7ca411f6fc7ea -> FETCH_HEAD
+Submodule path 'external/mstd/external/devops': checked out 'c3be8da2dfa9abc382d8680746c7ca411f6fc7ea'

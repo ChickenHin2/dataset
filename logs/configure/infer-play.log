@@ -1,0 +1,13 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/infer-play)
+-- The CXX compiler identification is GNU 11.5.0
+CMake Error at /usr/share/cmake/Modules/CMakeDetermineCUDACompiler.cmake:180 (message):
+  Failed to find nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (project)
+
+
+-- Configuring incomplete, errors occurred!

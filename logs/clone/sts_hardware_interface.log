@@ -1,0 +1,8 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:adityakamath/sts_hardware_interface.git  (cwd=repos)
+Cloning into 'sts_hardware_interface'...
+Submodule 'external/SCServo_Linux' (https://github.com/adityakamath/SCServo_Linux.git) registered for path 'external/SCServo_Linux'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sts_hardware_interface/external/SCServo_Linux'...
+From https://github.com/adityakamath/SCServo_Linux
+ * branch            6724600239b8db15c51ec5cd77f9ef6b992f2c98 -> FETCH_HEAD
+Submodule path 'external/SCServo_Linux': checked out '6724600239b8db15c51ec5cd77f9ef6b992f2c98'

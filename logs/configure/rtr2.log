@@ -1,0 +1,30 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/rtr2)
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- CMake version: 3.31.3
+-- compile_commands.json will be copied to build root.
+-- CMake version: 3.31.3
+-- ENABLE_COMPILE_COMMANDS is ON; compile_commands copy target is skipped for embedded PBPT builds.
+-- PBPT_FLOAT_64BIT is OFF; single precision floating point will be used.
+-- PBPT_INT_64BIT is OFF; 32-bit integer type will be used.
+-- PBPT_BUILD_TESTS is OFF; GoogleTest will NOT be configured.
+CMake Error at external/pbpt/cmake/third_party.cmake:9 (find_package):
+  Could not find a package configuration file provided by "stb" with any of
+  the following names:
+
+    stbConfig.cmake
+    stb-config.cmake
+
+  Add the installation prefix of "stb" to CMAKE_PREFIX_PATH or set "stb_DIR"
+  to a directory containing one of the above files.  If "stb" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  external/pbpt/CMakeLists.txt:60 (include)
+
+
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,11 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:falcon-autotuning/instrument-script-server.git  (cwd=repos)
+Cloning into 'instrument-script-server'...
+Submodule 'cmake/bootstrap' (https://github.com/falcon-autotuning/cmake-vcpkg-bootstrap.git) registered for path 'cmake/bootstrap'
+Submodule 'vcpkg' (https://github.com/microsoft/vcpkg.git) registered for path 'vcpkg'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/instrument-script-server/cmake/bootstrap'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/instrument-script-server/vcpkg'...
+Submodule path 'cmake/bootstrap': checked out '3aaccd3cf4e1318cd8f7b162e830328a1960a586'
+From https://github.com/microsoft/vcpkg
+ * branch              7fb558b02523aaa5f1f297e12d695962ce15fc92 -> FETCH_HEAD
+Submodule path 'vcpkg': checked out '7fb558b02523aaa5f1f297e12d695962ce15fc92'

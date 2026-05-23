@@ -1,0 +1,153 @@
+
+$ cmake --build build -j  (cwd=repos/opensomeip)
+[  0%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[  2%] Building CXX object src/CMakeFiles/opensomeip.dir/someip/types.cpp.o
+[  2%] Building CXX object src/CMakeFiles/opensomeip.dir/common/result.cpp.o
+[  3%] Building CXX object src/CMakeFiles/opensomeip.dir/someip/message.cpp.o
+[  3%] Building CXX object src/CMakeFiles/opensomeip.dir/rpc/rpc_client.cpp.o
+[  4%] Building CXX object src/CMakeFiles/opensomeip.dir/core/session_manager.cpp.o
+[  5%] Building CXX object src/CMakeFiles/opensomeip.dir/transport/udp_transport.cpp.o
+[  5%] Building CXX object src/CMakeFiles/opensomeip.dir/serialization/serializer.cpp.o
+[  7%] Building CXX object src/CMakeFiles/opensomeip.dir/transport/endpoint.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/opensomeip.dir/transport/tcp_transport.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/opensomeip.dir/e2e/e2e_profile_registry.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/opensomeip.dir/e2e/e2e_protection.cpp.o
+[ 11%] Building CXX object src/CMakeFiles/opensomeip.dir/tp/tp_reassembler.cpp.o
+[ 10%] Building CXX object src/CMakeFiles/opensomeip.dir/tp/tp_manager.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/opensomeip.dir/events/event_publisher.cpp.o
+[ 14%] Building CXX object src/CMakeFiles/opensomeip.dir/e2e/e2e_profiles/standard_profile.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/opensomeip.dir/events/event_subscriber.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/opensomeip.dir/sd/sd_server.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/opensomeip.dir/rpc/rpc_server.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/opensomeip.dir/e2e/e2e_crc.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/opensomeip.dir/e2e/e2e_header.cpp.o
+[ 18%] Building CXX object src/CMakeFiles/opensomeip.dir/sd/sd_client.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/opensomeip.dir/sd/sd_message.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/opensomeip.dir/tp/tp_segmenter.cpp.o
+[ 21%] Linking CXX static library ../lib/libopensomeip.a
+[ 21%] Built target opensomeip
+[ 21%] Building CXX object examples/e2e_protection/CMakeFiles/basic_e2e.dir/basic_e2e.cpp.o
+[ 22%] Building CXX object examples/basic/sd_demo/CMakeFiles/sd_demo_client.dir/client.cpp.o
+[ 23%] Building CXX object examples/advanced/complex_types/CMakeFiles/complex_types_server.dir/server.cpp.o
+[ 23%] Building CXX object examples/basic/hello_world/CMakeFiles/hello_world_client.dir/client.cpp.o
+[ 24%] Building CXX object examples/advanced/multi_service/CMakeFiles/multi_service_server.dir/server.cpp.o
+[ 25%] Building CXX object examples/basic/events/CMakeFiles/events_publisher.dir/publisher.cpp.o
+[ 28%] Building CXX object examples/advanced/complex_types/CMakeFiles/complex_types_client.dir/client.cpp.o
+[ 28%] Building CXX object examples/advanced/large_messages/CMakeFiles/large_messages_client.dir/client.cpp.o
+[ 31%] Building CXX object examples/advanced/large_messages/CMakeFiles/large_messages_server.dir/server.cpp.o
+[ 31%] Building CXX object examples/basic/method_calls/CMakeFiles/method_calls_server.dir/server.cpp.o
+[ 32%] Building CXX object examples/advanced/multi_service/CMakeFiles/multi_service_client.dir/client.cpp.o
+[ 32%] Building CXX object examples/advanced/udp_config/CMakeFiles/udp_config_example.dir/udp_config_example.cpp.o
+[ 32%] Building CXX object examples/e2e_protection/CMakeFiles/plugin_integration.dir/plugin_integration.cpp.o
+[ 34%] Building CXX object examples/basic/method_calls/CMakeFiles/method_calls_client.dir/client.cpp.o
+[ 34%] Building CXX object examples/e2e_protection/CMakeFiles/safety_critical.dir/safety_critical.cpp.o
+[ 35%] Building CXX object examples/basic/sd_demo/CMakeFiles/sd_demo_server.dir/server.cpp.o
+[ 36%] Building CXX object examples/basic/events/CMakeFiles/events_subscriber.dir/subscriber.cpp.o
+[ 37%] Building CXX object examples/basic/hello_world/CMakeFiles/hello_world_server.dir/server.cpp.o
+[ 38%] Linking CXX executable ../../bin/basic_e2e
+[ 40%] Linking CXX executable ../../bin/safety_critical
+[ 40%] Linking CXX executable ../../../bin/method_calls_client
+[ 40%] Built target basic_e2e
+[ 41%] Linking CXX executable ../../bin/plugin_integration
+[ 41%] Built target safety_critical
+[ 42%] Linking CXX executable ../../../bin/method_calls_server
+[ 42%] Built target method_calls_client
+[ 43%] Linking CXX executable ../../../bin/events_subscriber
+[ 44%] Linking CXX executable ../../../bin/large_messages_client
+[ 44%] Built target plugin_integration
+[ 44%] Built target method_calls_server
+[ 45%] Linking CXX executable ../../../bin/udp_config_example
+[ 45%] Linking CXX executable ../../../bin/sd_demo_client
+[ 47%] Linking CXX executable ../../../bin/hello_world_client
+[ 48%] Linking CXX executable ../../../bin/sd_demo_server
+[ 48%] Linking CXX executable ../../../bin/complex_types_client
+[ 48%] Built target events_subscriber
+[ 48%] Built target large_messages_client
+[ 48%] Linking CXX executable ../../../bin/events_publisher
+[ 49%] Linking CXX executable ../../../bin/hello_world_server
+[ 49%] Built target udp_config_example
+[ 49%] Linking CXX executable ../../../bin/multi_service_client
+[ 49%] Built target sd_demo_client
+[ 49%] Built target hello_world_client
+[ 49%] Built target sd_demo_server
+[ 49%] Built target complex_types_client
+[ 50%] Linking CXX executable ../../../bin/large_messages_server
+[ 51%] Linking CXX executable ../../../bin/complex_types_server
+[ 51%] Built target events_publisher
+[ 51%] Built target hello_world_server
+[ 51%] Built target multi_service_client
+[ 51%] Built target large_messages_server
+[ 51%] Built target complex_types_server
+[ 52%] Linking CXX executable ../../../bin/multi_service_server
+[ 52%] Built target multi_service_server
+[ 54%] Linking CXX static library ../../../lib/libgtest.a
+[ 54%] Built target gtest
+[ 55%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 55%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 56%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 56%] Built target gtest_main
+[ 57%] Building CXX object tests/CMakeFiles/test_endpoint.dir/test_endpoint.cpp.o
+[ 58%] Building CXX object tests/CMakeFiles/test_udp_transport.dir/test_udp_transport.cpp.o
+[ 61%] Building CXX object tests/CMakeFiles/test_rpc.dir/test_rpc.cpp.o
+[ 61%] Building CXX object tests/CMakeFiles/test_platform_threading.dir/test_platform_threading.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/test_tcp_transport.dir/test_tcp_transport.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/test_serialization.dir/test_serialization.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/__/src/someip/message.cpp.o
+[ 65%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/__/src/someip/message.cpp.o
+[ 67%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/__/src/someip/types.cpp.o
+[ 67%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/test_pal_threadx_mock.cpp.o
+[ 69%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/test_pal_freertos_mock.cpp.o
+[ 69%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/test_pal_zephyr_mock.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/__/src/someip/types.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/__/src/someip/message.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/__/src/someip/types.cpp.o
+[ 72%] Building CXX object tests/CMakeFiles/test_session_manager.dir/test_session_manager.cpp.o
+[ 74%] Building CXX object tests/CMakeFiles/test_message.dir/test_message.cpp.o
+[ 75%] Building CXX object tests/CMakeFiles/test_events.dir/test_events.cpp.o
+[ 76%] Building CXX object tests/CMakeFiles/test_e2e.dir/test_e2e.cpp.o
+[ 77%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/__/src/common/result.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/__/src/e2e/e2e_header.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/__/src/e2e/e2e_header.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/__/src/e2e/e2e_header.cpp.o
+[ 80%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/__/src/e2e/e2e_crc.cpp.o
+[ 81%] Building CXX object tests/CMakeFiles/test_pal_zephyr_mock.dir/__/src/common/result.cpp.o
+[ 81%] Building CXX object tests/CMakeFiles/test_pal_freertos_mock.dir/__/src/e2e/e2e_crc.cpp.o
+[ 82%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/__/src/common/result.cpp.o
+[ 83%] Building CXX object tests/CMakeFiles/test_pal_threadx_mock.dir/__/src/e2e/e2e_crc.cpp.o
+[ 84%] Building CXX object tests/CMakeFiles/test_tp.dir/test_tp.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/test_sd.dir/test_sd.cpp.o
+[ 87%] Linking CXX static library ../../../lib/libgmock.a
+[ 87%] Built target gmock
+[ 88%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 89%] Linking CXX executable ../bin/test_rpc
+[ 89%] Built target test_rpc
+[ 90%] Linking CXX executable ../bin/test_events
+[ 90%] Built target test_events
+[ 91%] Linking CXX static library ../../../lib/libgmock_main.a
+[ 91%] Linking CXX executable ../bin/test_message
+[ 91%] Linking CXX executable ../bin/test_session_manager
+[ 91%] Built target gmock_main
+[ 91%] Built target test_message
+[ 91%] Built target test_session_manager
+[ 91%] Linking CXX executable ../bin/test_platform_threading
+[ 92%] Linking CXX executable ../bin/test_pal_zephyr_mock
+[ 94%] Linking CXX executable ../bin/test_pal_threadx_mock
+[ 94%] Built target test_platform_threading
+[ 94%] Built target test_pal_zephyr_mock
+[ 95%] Linking CXX executable ../bin/test_udp_transport
+[ 95%] Built target test_pal_threadx_mock
+[ 96%] Linking CXX executable ../bin/test_e2e
+[ 96%] Built target test_udp_transport
+[ 97%] Linking CXX executable ../bin/test_pal_freertos_mock
+[ 97%] Linking CXX executable ../bin/test_tp
+[ 97%] Built target test_e2e
+[ 97%] Built target test_pal_freertos_mock
+[ 97%] Built target test_tp
+[ 98%] Linking CXX executable ../bin/test_tcp_transport
+[ 98%] Linking CXX executable ../bin/test_endpoint
+[ 98%] Built target test_tcp_transport
+[ 98%] Built target test_endpoint
+[100%] Linking CXX executable ../bin/test_serialization
+[100%] Built target test_serialization
+[100%] Linking CXX executable ../bin/test_sd
+[100%] Built target test_sd

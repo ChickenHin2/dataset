@@ -1,0 +1,216 @@
+
+$ cmake --build build -j  (cwd=repos/sandook)
+/gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -S/gpfs/work5/0/prjs2109/dataset/repos/sandook -B/gpfs/work5/0/prjs2109/dataset/repos/sandook/build --check-build-system CMakeFiles/Makefile.cmake 0
+/gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_progress_start /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/CMakeFiles /gpfs/work5/0/prjs2109/dataset/repos/sandook/build//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
+/usr/bin/gmake  -f lib/CMakeFiles/caladan_src.dir/build.make lib/CMakeFiles/caladan_src.dir/depend
+/usr/bin/gmake  -f sandook/config/CMakeFiles/config.dir/build.make sandook/config/CMakeFiles/config.dir/depend
+/usr/bin/gmake  -f sandook/base/CMakeFiles/sandook_base.dir/build.make sandook/base/CMakeFiles/sandook_base.dir/depend
+/usr/bin/gmake  -f sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/build.make sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/depend
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_depends "Unix Makefiles" /gpfs/work5/0/prjs2109/dataset/repos/sandook /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-src/googletest /gpfs/work5/0/prjs2109/dataset/repos/sandook/build /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-build/googletest /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_depends "Unix Makefiles" /gpfs/work5/0/prjs2109/dataset/repos/sandook /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/config /gpfs/work5/0/prjs2109/dataset/repos/sandook/build /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/config /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/config/CMakeFiles/config.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_depends "Unix Makefiles" /gpfs/work5/0/prjs2109/dataset/repos/sandook /gpfs/work5/0/prjs2109/dataset/repos/sandook/lib /gpfs/work5/0/prjs2109/dataset/repos/sandook/build /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/CMakeFiles/caladan_src.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_depends "Unix Makefiles" /gpfs/work5/0/prjs2109/dataset/repos/sandook /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/base /gpfs/work5/0/prjs2109/dataset/repos/sandook/build /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base/CMakeFiles/sandook_base.dir/DependInfo.cmake "--color="
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_depends "Unix Makefiles" /gpfs/work5/0/prjs2109/dataset/repos/sandook /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/samples/read_write_blk_dev /gpfs/work5/0/prjs2109/dataset/repos/sandook/build /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/samples/read_write_blk_dev /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/DependInfo.cmake "--color="
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f sandook/base/CMakeFiles/sandook_base.dir/build.make sandook/base/CMakeFiles/sandook_base.dir/build
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f sandook/config/CMakeFiles/config.dir/build.make sandook/config/CMakeFiles/config.dir/build
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f lib/CMakeFiles/caladan_src.dir/build.make lib/CMakeFiles/caladan_src.dir/build
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+/usr/bin/gmake  -f sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/build.make sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/build
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[2]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+[  1%] Building CXX object sandook/base/CMakeFiles/sandook_base.dir/counter.cc.o
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/inc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/bindings/cc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=gnu++23 -fPIC -MD -MT sandook/base/CMakeFiles/sandook_base.dir/counter.cc.o -MF CMakeFiles/sandook_base.dir/counter.cc.o.d -o CMakeFiles/sandook_base.dir/counter.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/base/counter.cc
+[  2%] Building CXX object sandook/base/CMakeFiles/sandook_base.dir/error.cc.o
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/inc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/bindings/cc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=gnu++23 -fPIC -MD -MT sandook/base/CMakeFiles/sandook_base.dir/error.cc.o -MF CMakeFiles/sandook_base.dir/error.cc.o.d -o CMakeFiles/sandook_base.dir/error.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/base/error.cc
+[  3%] Building CXX object sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/run.cc.o
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/samples/read_write_blk_dev && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/inc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/bindings/cc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/argparse-src/include -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=gnu++23 -fPIE -MD -MT sandook/samples/read_write_blk_dev/CMakeFiles/read_write_blk_dev.dir/run.cc.o -MF CMakeFiles/read_write_blk_dev.dir/run.cc.o.d -o CMakeFiles/read_write_blk_dev.dir/run.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/samples/read_write_blk_dev/run.cc
+[  5%] Creating directories for 'caladan_src'
+[  5%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -Dcfgdir= -P /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/tmp/caladan_src-mkdirs.cmake
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-build/googletest && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-src/googletest/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-src/googletest -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=c++23 -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -MD -MT _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -MF CMakeFiles/gtest.dir/src/gtest-all.cc.o.d -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-src/googletest/src/gtest-all.cc
+[  7%] Building CXX object sandook/config/CMakeFiles/config.dir/config.cc.o
+[  7%] Building CXX object sandook/base/CMakeFiles/sandook_base.dir/io.cc.o
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/config && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/inc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/bindings/cc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=gnu++23 -fPIC -MD -MT sandook/config/CMakeFiles/config.dir/config.cc.o -MF CMakeFiles/config.dir/config.cc.o.d -o CMakeFiles/config.dir/config.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/config/config.cc
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base && /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++  -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv/include -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/inc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/bindings/cc -I/gpfs/work5/0/prjs2109/dataset/repos/sandook -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math -std=gnu++23 -fPIC -MD -MT sandook/base/CMakeFiles/sandook_base.dir/io.cc.o -MF CMakeFiles/sandook_base.dir/io.cc.o.d -o CMakeFiles/sandook_base.dir/io.cc.o -c /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/base/io.cc
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E touch /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-mkdir
+In file included from /gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/config/config.cc:1:
+/gpfs/work5/0/prjs2109/dataset/repos/sandook/sandook/config/config.h:3:10: fatal error: jsoncpp/json/value.h: No such file or directory
+    3 | #include <jsoncpp/json/value.h>
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [sandook/config/CMakeFiles/config.dir/build.make:82: sandook/config/CMakeFiles/config.dir/config.cc.o] Error 1
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[1]: *** [CMakeFiles/Makefile2:788: sandook/config/CMakeFiles/config.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  8%] No download step for 'caladan_src'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E echo_append
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E touch /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-download
+[  9%] No update step for 'caladan_src'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E echo_append
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E touch /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-update
+[ 10%] No patch step for 'caladan_src'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E echo_append
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E touch /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-patch
+[ 10%] No configure step for 'caladan_src'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E echo_append
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E touch /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-configure
+[ 11%] Performing build step for 'caladan_src'
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan && make -j 94
+make[3]: Entering directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan'
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/bitmap.c -o base/bitmap.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/cpu.c -o base/cpu.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/init.c -o base/init.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/jenkins_hash.c -o base/jenkins_hash.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/list.c -o base/list.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/log.c -o base/log.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/lrpc.c -o base/lrpc.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/mem.c -o base/mem.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/mempool.c -o base/mempool.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/page.c -o base/page.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/pci.c -o base/pci.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/slab.c -o base/slab.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/stat.c -o base/stat.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/sysfs.c -o base/sysfs.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/tcache.c -o base/tcache.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/thread.c -o base/thread.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c base/time.c -o base/time.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c net/mbuf.c -o net/mbuf.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c net/netdump.c -o net/netdump.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/cfg.c -o runtime/cfg.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/gc.c -o runtime/gc.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/init.c -o runtime/init.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/ioqueues.c -o runtime/ioqueues.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/kthread.c -o runtime/kthread.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/poll.c -o runtime/poll.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/preempt.c -o runtime/preempt.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/rcu.c -o runtime/rcu.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/sched.c -o runtime/sched.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/smalloc.c -o runtime/smalloc.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/softirq.c -o runtime/softirq.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/stack.c -o runtime/stack.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/stat.c -o runtime/stat.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/storage.c -o runtime/storage.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/sync.c -o runtime/sync.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/timer.c -o runtime/timer.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/arp.c -o runtime/net/arp.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/core.c -o runtime/net/core.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/icmp.c -o runtime/net/icmp.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/ping.c -o runtime/net/ping.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/tcp.c -o runtime/net/tcp.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/tcp_debug.c -o runtime/net/tcp_debug.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/tcp_in.c -o runtime/net/tcp_in.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/tcp_out.c -o runtime/net/tcp_out.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/transport.c -o runtime/net/transport.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/udp.c -o runtime/net/udp.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/common.c -o runtime/net/directpath/common.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_flow_steering.c -o runtime/net/directpath/mlx5/mlx5_flow_steering.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_init_common.c -o runtime/net/directpath/mlx5/mlx5_init_common.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_init_external.c -o runtime/net/directpath/mlx5/mlx5_init_external.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_init_verbs.c -o runtime/net/directpath/mlx5/mlx5_init_verbs.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_queue_steering.c -o runtime/net/directpath/mlx5/mlx5_queue_steering.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_rx_stride.c -o runtime/net/directpath/mlx5/mlx5_rx_stride.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/net/directpath/mlx5/mlx5_rxtx.c -o runtime/net/directpath/mlx5/mlx5_rxtx.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -DNDEBUG -O3 -mssse3 -MMD -c runtime/switch.S -o runtime/switch.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/commands.c -o iokernel/commands.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/control.c -o iokernel/control.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/dp_clients.c -o iokernel/dp_clients.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/dpdk.c -o iokernel/dpdk.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/hw_timestamp.c -o iokernel/hw_timestamp.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/ias_bw.c -o iokernel/ias_bw.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/ias.c -o iokernel/ias.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/ias_ht.c -o iokernel/ias_ht.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/ias_ts.c -o iokernel/ias_ts.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/ksched.c -o iokernel/ksched.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/main.c -o iokernel/main.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/mempool_completion.c -o iokernel/mempool_completion.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/numa.c -o iokernel/numa.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/rx.c -o iokernel/rx.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/sched.c -o iokernel/sched.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/simple.c -o iokernel/simple.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/stat.c -o iokernel/stat.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/timer_wheel.c -o iokernel/timer_wheel.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/tx.c -o iokernel/tx.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/arp_fwd.c -o iokernel/directpath/arp_fwd.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/command.c -o iokernel/directpath/command.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/core.c -o iokernel/directpath/core.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/events.c -o iokernel/directpath/events.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/queues.c -o iokernel/directpath/queues.o
+gcc -std=gnu11 -g -Wall -D_GNU_SOURCE -I./inc -Idpdk/build/include -DNDEBUG -O3 -mssse3 -MMD -c iokernel/directpath/steering.c -o iokernel/directpath/steering.o
+make[3]: *** No rule to make target 'deps/pcm/build/src/libpcm.a', needed by 'iokerneld'.  Stop.
+make[3]: *** Waiting for unfinished jobs....
+iokernel/mempool_completion.c:6:10: fatal error: rte_mempool.h: No such file or directory
+    6 | #include <rte_mempool.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+iokernel/main.c:5:10: fatal error: rte_ethdev.h: No such file or directory
+    5 | #include <rte_ethdev.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+iokernel/rx.c:5:10: fatal error: rte_ethdev.h: No such file or directory
+    5 | #include <rte_ethdev.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+iokernel/tx.c:5:10: fatal error: rte_ethdev.h: No such file or directory
+    5 | #include <rte_ethdev.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [Makefile:80: iokernel/mempool_completion.o] Error 1
+make[3]: *** [Makefile:80: iokernel/tx.o] Error 1
+make[3]: *** [Makefile:80: iokernel/main.o] Error 1
+make[3]: *** [Makefile:80: iokernel/rx.o] Error 1
+iokernel/dpdk.c:39:10: fatal error: rte_bus_pci.h: No such file or directory
+   39 | #include <rte_bus_pci.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [Makefile:80: iokernel/dpdk.o] Error 1
+iokernel/commands.c:5:10: fatal error: rte_mbuf.h: No such file or directory
+    5 | #include <rte_mbuf.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [Makefile:80: iokernel/commands.o] Error 1
+iokernel/dp_clients.c:7:10: fatal error: rte_ether.h: No such file or directory
+    7 | #include <rte_ether.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [Makefile:80: iokernel/dp_clients.o] Error 1
+make[3]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan'
+gmake[2]: *** [lib/CMakeFiles/caladan_src.dir/build.make:98: lib/caladan_src-prefix/src/caladan_src-stamp/caladan_src-build] Error 2
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake[1]: *** [CMakeFiles/Makefile2:692: lib/CMakeFiles/caladan_src.dir/all] Error 2
+[ 12%] Linking CXX static library libsandook_base.a
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -P CMakeFiles/sandook_base.dir/cmake_clean_target.cmake
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/base && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_link_script CMakeFiles/sandook_base.dir/link.txt --verbose=1
+/usr/bin/ar qc libsandook_base.a CMakeFiles/sandook_base.dir/error.cc.o CMakeFiles/sandook_base.dir/io.cc.o CMakeFiles/sandook_base.dir/counter.cc.o
+/usr/bin/ranlib libsandook_base.a
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+[ 12%] Built target sandook_base
+[ 12%] Linking CXX executable read_write_blk_dev
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/sandook/samples/read_write_blk_dev && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_link_script CMakeFiles/read_write_blk_dev.dir/link.txt --verbose=1
+/sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ -Wall -g -fno-stack-protector -march=native -DNDEBUG -O3 -flto=auto -ffast-math CMakeFiles/read_write_blk_dev.dir/run.cc.o -o read_write_blk_dev
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+[ 12%] Built target read_write_blk_dev
+[ 12%] Linking CXX static library ../../../lib/libgtest.a
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-build/googletest && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+cd /gpfs/work5/0/prjs2109/dataset/repos/sandook/build/_deps/googletest-build/googletest && /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/bin/cmake -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=1
+/usr/bin/ar qc ../../../lib/libgtest.a "CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+/usr/bin/ranlib ../../../lib/libgtest.a
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+[ 12%] Built target gtest
+gmake[1]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake: *** [Makefile:169: all] Error 2

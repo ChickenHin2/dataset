@@ -1,0 +1,8 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:oguzhanduguncu/engine_playground.git  (cwd=repos)
+Cloning into 'engine_playground'...
+Submodule 'external/glm' (https://github.com/g-truc/glm.git) registered for path 'external/glm'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/engine_playground/external/glm'...
+From https://github.com/g-truc/glm
+ * branch            b1fed407864225653dae04674f04014c92287a26 -> FETCH_HEAD
+Submodule path 'external/glm': checked out 'b1fed407864225653dae04674f04014c92287a26'

@@ -1,0 +1,6 @@
+
+$ ctest --test-dir build --output-on-failure --no-tests=error  (cwd=repos/tetris)
+Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/tetris/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/tetris/build
+No tests were found!!!
+Errors while running CTest

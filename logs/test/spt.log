@@ -1,0 +1,138 @@
+
+$ ctest --test-dir build --output-on-failure --no-tests=error  (cwd=repos/spt)
+Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/spt/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/spt/build
+      Start  1: TestCApi
+ 1/29 Test  #1: TestCApi ..........................   Passed    0.05 sec
+      Start  2: sptxx_test_basic
+ 2/29 Test  #2: sptxx_test_basic ..................   Passed    0.03 sec
+      Start  3: sptxx_test_call_metamethod
+ 3/29 Test  #3: sptxx_test_call_metamethod ........   Passed    0.02 sec
+      Start  4: sptxx_test_comprehensive
+ 4/29 Test  #4: sptxx_test_comprehensive ..........   Passed    0.03 sec
+      Start  5: sptxx_test_containers_advanced
+ 5/29 Test  #5: sptxx_test_containers_advanced ....***Failed    0.03 sec
+=== Testing Advanced Container Interop ===
+
+Executing Custom Syntax Script...
+line 3:33 missing ';' at 'DataProcessor'
+[Ast Error] Syntax errors in 
+            // 实例化 C++ 类
+            auto processor = new DataProcessor();
+
+            // 验证并修改 C++ 传进来的 List
+            print("Script sees globalList size: " .. #globalList);
+
+            // 【修复这里】：SPT Lua 数组是严格 0 索引且防越界的！
+            // 原先有 2 个元素，合法索引是 0 和 1。我们修改索引 1 的元素。
+            globalList[1] = "Gamma";
+
+            processor.process_list(globalList);
+
+            // 使用 AST 支持的字面量创建新的 List 并传给 C++
+            auto scriptList = ["Delta", "Echo", "Foxtrot"];
+            processor.process_list(scriptList);
+
+            // 使用 AST 支持的字面量创建新的 Map 并传给 C++
+            auto scriptMap = {
+                "power": 9000,
+                "speed": 120
+            };
+            processor.process_map(scriptMap);
+        
+Error: basic_string: construction from null is not valid
+
+      Start  6: sptxx_test_coroutine
+ 6/29 Test  #6: sptxx_test_coroutine ..............   Passed    0.03 sec
+      Start  7: sptxx_test_coroutine_wrap
+ 7/29 Test  #7: sptxx_test_coroutine_wrap .........   Passed    0.03 sec
+      Start  8: sptxx_test_function_persistence
+ 8/29 Test  #8: sptxx_test_function_persistence ...   Passed    0.03 sec
+      Start  9: sptxx_test_global_persistence
+ 9/29 Test  #9: sptxx_test_global_persistence .....   Passed    0.02 sec
+      Start 10: sptxx_test_global_scope
+10/29 Test #10: sptxx_test_global_scope ...........   Passed    0.02 sec
+      Start 11: sptxx_test_list_bounds
+11/29 Test #11: sptxx_test_list_bounds ............   Passed    0.02 sec
+      Start 12: sptxx_test_list_validation
+12/29 Test #12: sptxx_test_list_validation ........   Passed    0.03 sec
+      Start 13: sptxx_test_lua_function
+13/29 Test #13: sptxx_test_lua_function ...........   Passed    0.02 sec
+      Start 14: sptxx_test_map_clear
+14/29 Test #14: sptxx_test_map_clear ..............   Passed    0.01 sec
+      Start 15: sptxx_test_map_iterator
+15/29 Test #15: sptxx_test_map_iterator ...........   Passed    0.02 sec
+      Start 16: sptxx_test_map_validation
+16/29 Test #16: sptxx_test_map_validation .........   Passed    0.03 sec
+      Start 17: sptxx_test_multireturn
+17/29 Test #17: sptxx_test_multireturn ............   Passed    0.10 sec
+      Start 18: sptxx_test_object_list
+18/29 Test #18: sptxx_test_object_list ............   Passed    0.02 sec
+      Start 19: sptxx_test_object_map
+19/29 Test #19: sptxx_test_object_map .............   Passed    0.02 sec
+      Start 20: sptxx_test_optional
+20/29 Test #20: sptxx_test_optional ...............   Passed    0.03 sec
+      Start 21: sptxx_test_ownership
+21/29 Test #21: sptxx_test_ownership ..............   Passed    0.03 sec
+      Start 22: sptxx_test_ref
+22/29 Test #22: sptxx_test_ref ....................   Passed    0.02 sec
+      Start 23: sptxx_test_registry_ref
+23/29 Test #23: sptxx_test_registry_ref ...........   Passed    0.02 sec
+      Start 24: sptxx_test_simple
+24/29 Test #24: sptxx_test_simple .................   Passed    0.02 sec
+      Start 25: sptxx_test_static_capture_bug
+25/29 Test #25: sptxx_test_static_capture_bug .....   Passed    0.02 sec
+      Start 26: sptxx_test_syntax
+26/29 Test #26: sptxx_test_syntax .................   Passed    0.04 sec
+      Start 27: sptxx_test_tforcall
+27/29 Test #27: sptxx_test_tforcall ...............   Passed    0.02 sec
+      Start 28: sptxx_test_usertype
+28/29 Test #28: sptxx_test_usertype ...............***Failed    0.03 sec
+=== Testing Expanded Usertype Features ===
+
+1. Binding Warrior class...
+Class bound successfully!
+
+2. Testing Custom Grammar Scripts...
+line 2:21 missing ';' at 'Warrior'
+[Ast Error] Syntax errors in 
+        auto w = new Warrior("Arthur", 500, 50);
+
+        w.introduce();
+        print("Initial HP from script: " .. w.hp);
+
+        w.take_damage(150, "Dragon Fire");
+
+        auto alive = w.is_alive();
+        if (alive) {
+            print("Arthur is still standing!");
+        } else {
+            error("Arthur shouldn't be dead yet!");
+        }
+
+        w.take_damage(400, "Dark Magic");
+        if (!w.is_alive()) {
+            print("Arthur has fallen...");
+        }
+    
+Error: basic_string: construction from null is not valid
+
+      Start 29: sptxx_test_usertype_operators
+29/29 Test #29: sptxx_test_usertype_operators .....***Exception: SegFault  1.44 sec
+=== Testing Usertype Operator Overloading (Complete) ===
+
+--- Part 1: Vector3 (Arithmetic & Comparison) ---
+Vector3 registered!
+
+1. Testing __add (+)...
+
+
+90% tests passed, 3 tests failed out of 29
+
+Total Test time (real) =   2.26 sec
+
+The following tests FAILED:
+	  5 - sptxx_test_containers_advanced (Failed)
+	 28 - sptxx_test_usertype (Failed)
+	 29 - sptxx_test_usertype_operators (SEGFAULT)
+Errors while running CTest

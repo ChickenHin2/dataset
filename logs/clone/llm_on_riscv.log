@@ -1,0 +1,13 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:believebest35/llm_on_riscv.git  (cwd=repos)
+Cloning into 'llm_on_riscv'...
+Submodule 'third_party/eigen' (https://gitlab.com/libeigen/eigen.git) registered for path 'third_party/eigen'
+Submodule 'third_party/gtest' (https://github.com/google/googletest.git) registered for path 'third_party/gtest'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/llm_on_riscv/third_party/eigen'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/llm_on_riscv/third_party/gtest'...
+From https://gitlab.com/libeigen/eigen
+ * branch            fdfdd4c96b118a1a8e1b7dd1003d6f3b7707d587 -> FETCH_HEAD
+Submodule path 'third_party/eigen': checked out 'fdfdd4c96b118a1a8e1b7dd1003d6f3b7707d587'
+From https://github.com/google/googletest
+ * branch            5fd443cdc364127439ef237378650bb49ddcd768 -> FETCH_HEAD
+Submodule path 'third_party/gtest': checked out '5fd443cdc364127439ef237378650bb49ddcd768'

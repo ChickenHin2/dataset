@@ -1,0 +1,21 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:Xarvie/spt.git  (cwd=repos)
+Cloning into 'spt'...
+Updating files:  84% (934/1103)
+Updating files:  85% (938/1103)
+Updating files:  86% (949/1103)
+Updating files:  87% (960/1103)
+Updating files:  88% (971/1103)
+Updating files:  89% (982/1103)
+Updating files:  90% (993/1103)
+Updating files:  91% (1004/1103)
+Updating files:  92% (1015/1103)
+Updating files:  93% (1026/1103)
+Updating files:  94% (1037/1103)
+Updating files:  95% (1048/1103)
+Updating files:  96% (1059/1103)
+Updating files:  97% (1070/1103)
+Updating files:  98% (1081/1103)
+Updating files:  99% (1092/1103)
+Updating files: 100% (1103/1103)
+Updating files: 100% (1103/1103), done.

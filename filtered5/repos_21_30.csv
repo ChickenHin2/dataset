@@ -1,0 +1,89 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQsQsUA,2025-12-20T15:45:23Z,2026-05-04T13:31:10Z,2026-05-04T13:30:42Z,201,False,lines-core,ihateyouall-dev/lines-core,git@github.com:ihateyouall-dev/lines-core.git,0,True,True,False,"ctest failed (rc=8): Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/lines-core/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/lines-core/build
+No tests were found!!!
+Errors while running CTest"
+R_kgDOQrxZHw,2025-12-19T15:46:13Z,2026-05-02T01:39:01Z,2026-05-02T01:38:56Z,99,True,take_before,bemanproject/take_before,git@github.com:bemanproject/take_before.git,2,False,False,False,"cmake configure failed (rc=1): _FAILURE_MESSAGE)
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindGTest.cmake:273 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  tests/beman/take_before/CMakeLists.txt:3 (find_package)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmrWg,2025-12-19T10:06:44Z,2026-05-04T14:53:25Z,2026-05-04T14:53:19Z,11391,True,entservices-displayinfo,rdkcentral/entservices-displayinfo,git@github.com:rdkcentral/entservices-displayinfo.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:43 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:46 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmoPQ,2025-12-19T10:05:13Z,2026-04-09T17:30:23Z,2026-04-20T14:35:05Z,11321,True,entservices-warehouse,rdkcentral/entservices-warehouse,git@github.com:rdkcentral/entservices-warehouse.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmlDg,2025-12-19T10:03:39Z,2026-04-09T17:39:07Z,2026-04-20T14:34:23Z,11291,True,entservices-userpreferences,rdkcentral/entservices-userpreferences,git@github.com:rdkcentral/entservices-userpreferences.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:41 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:44 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmiGw,2025-12-19T10:02:15Z,2026-04-23T17:35:45Z,2026-05-06T11:20:03Z,12044,True,entservices-systemservices,rdkcentral/entservices-systemservices,git@github.com:rdkcentral/entservices-systemservices.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:41 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:44 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmeLQ,2025-12-19T10:00:22Z,2026-04-09T18:17:46Z,2026-04-20T14:33:33Z,11340,True,entservices-systemmode,rdkcentral/entservices-systemmode,git@github.com:rdkcentral/entservices-systemmode.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:41 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:44 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrmbAw,2025-12-19T09:58:49Z,2026-04-09T17:10:14Z,2026-05-06T08:42:50Z,11370,True,entservices-powermanager,rdkcentral/entservices-powermanager,git@github.com:rdkcentral/entservices-powermanager.git,0,False,False,False,"cmake configure failed (rc=1): lugins-config.cmake
+
+  Add the installation prefix of ""Plugins"" to CMAKE_PREFIX_PATH or set
+  ""Plugins_DIR"" to a directory containing one of the above files.  If
+  ""Plugins"" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Configuring incomplete, errors occurred!"

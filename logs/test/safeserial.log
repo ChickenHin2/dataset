@@ -1,0 +1,16 @@
+
+$ ctest --test-dir build --output-on-failure --no-tests=error  (cwd=repos/safeserial)
+Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/safeserial/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/safeserial/build
+    Start 1: DeepVerification
+1/4 Test #1: DeepVerification .................   Passed    0.02 sec
+    Start 2: CRC32
+2/4 Test #2: CRC32 ............................   Passed    0.02 sec
+    Start 3: SafeSerial
+3/4 Test #3: SafeSerial .......................   Passed    0.03 sec
+    Start 4: ResilientBridge
+4/4 Test #4: ResilientBridge ..................   Passed    0.03 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =   0.18 sec

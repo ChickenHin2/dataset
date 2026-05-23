@@ -1,0 +1,37 @@
+
+$ cmake --build build -j  (cwd=repos/safeserial)
+[  8%] Building CXX object src/CMakeFiles/safeserial.dir/safeserial.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/safeserial.dir/transport/platform/linux/linux_serial.cpp.o
+[ 12%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 16%] Building CXX object src/CMakeFiles/safeserial.dir/resilient_bridge.cpp.o
+[ 20%] Linking CXX static library libsafeserial.a
+[ 20%] Built target safeserial
+[ 25%] Building CXX object examples/CMakeFiles/serial_app.dir/cli_app.cpp.o
+[ 29%] Building CXX object tests/CMakeFiles/reliability_test.dir/reliability_test.cpp.o
+[ 33%] Linking CXX executable serial_app
+[ 33%] Built target serial_app
+[ 37%] Linking CXX executable reliability_test
+[ 37%] Built target reliability_test
+[ 41%] Linking CXX static library ../../../lib/libgtest.a
+[ 41%] Built target gtest
+[ 45%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 50%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 54%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 54%] Built target gtest_main
+[ 58%] Building CXX object tests/CMakeFiles/test_resilient_bridge.dir/test_resilient_bridge.cpp.o
+[ 62%] Building CXX object tests/CMakeFiles/test_deep_verification.dir/test_deep_verification.cpp.o
+[ 66%] Building CXX object tests/CMakeFiles/test_safeserial.dir/test_safeserial.cpp.o
+[ 70%] Building CXX object tests/CMakeFiles/test_crc32.dir/test_crc32.cpp.o
+[ 75%] Linking CXX static library ../../../lib/libgmock.a
+[ 75%] Built target gmock
+[ 79%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[ 83%] Linking CXX executable test_crc32
+[ 83%] Built target test_crc32
+[ 87%] Linking CXX executable test_resilient_bridge
+[ 87%] Built target test_resilient_bridge
+[ 91%] Linking CXX executable test_safeserial
+[ 95%] Linking CXX static library ../../../lib/libgmock_main.a
+[ 95%] Built target test_safeserial
+[ 95%] Built target gmock_main
+[100%] Linking CXX executable test_deep_verification
+[100%] Built target test_deep_verification

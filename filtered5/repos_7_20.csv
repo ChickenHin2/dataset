@@ -1,0 +1,97 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQwHLpQ,2025-12-28T14:30:14Z,2026-03-21T21:19:30Z,2026-03-21T21:19:27Z,2876,False,spt,Xarvie/spt,git@github.com:Xarvie/spt.git,0,True,True,False,"ctest failed (rc=8): tered!
+
+1. Testing __add (+)...
+
+
+90% tests passed, 3 tests failed out of 29
+
+Total Test time (real) =   2.26 sec
+
+The following tests FAILED:
+	  5 - sptxx_test_containers_advanced (Failed)
+	 28 - sptxx_test_usertype (Failed)
+	 29 - sptxx_test_usertype_operators (SEGFAULT)
+Errors while running CTest"
+R_kgDOQvjseQ,2025-12-27T08:30:35Z,2026-04-09T14:34:55Z,2026-04-09T16:16:38Z,90344,True,FastDevFs,devlup-labs/FastDevFs,git@github.com:devlup-labs/FastDevFs.git,4,False,False,False,"cmake configure failed (rc=1): 
+
+Call Stack (most recent call first):
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPkgConfig.cmake:873 (_pkg_check_modules_internal)
+  CMakeLists.txt:9 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQvGUcw,2025-12-26T08:34:22Z,2026-04-21T16:05:21Z,2026-04-27T11:21:52Z,171207,False,Rocksdb-delta,IceciderEX/Rocksdb-delta,git@github.com:IceciderEX/Rocksdb-delta.git,0,False,False,False,"cmake configure failed (rc=1): /EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+  cmake/modules/Findgflags.cmake:15 (find_package_handle_standard_args)
+  CMakeLists.txt:151 (find_package)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQu1V3Q,2025-12-25T16:48:05Z,2026-05-04T18:32:44Z,2026-05-04T18:32:40Z,28,True,sandbox-char_conversion,bemanproject/sandbox-char_conversion,git@github.com:bemanproject/sandbox-char_conversion.git,0,False,False,False,"cmake configure failed (rc=1): n prefix of ""beman-install-library"" to CMAKE_PREFIX_PATH
+  or set ""beman-install-library_DIR"" to a directory containing one of the
+  above files.  If ""beman-install-library"" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQudlZA,2025-12-24T19:26:14Z,2026-03-20T05:12:18Z,2026-03-20T05:12:13Z,31640,False,MatrizCpp,PagnoDev/MatrizCpp,git@github.com:PagnoDev/MatrizCpp.git,0,False,False,False,"cmake configure failed (rc=1): Config.cmake
+    qt6-config.cmake
+
+  Add the installation prefix of ""Qt6"" to CMAKE_PREFIX_PATH or set ""Qt6_DIR""
+  to a directory containing one of the above files.  If ""Qt6"" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQuUydw,2025-12-24T13:35:22Z,2026-04-30T03:56:19Z,2026-04-30T03:56:15Z,628,True,OBCX,Onebot-CXX/OBCX,git@github.com:Onebot-CXX/OBCX.git,0,False,False,False,"cmake configure failed (rc=1): e
+
+  Add the installation prefix of ""nlohmann_json"" to CMAKE_PREFIX_PATH or set
+  ""nlohmann_json_DIR"" to a directory containing one of the above files.  If
+  ""nlohmann_json"" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQuHhDw,2025-12-24T05:23:15Z,2026-04-24T10:55:25Z,2026-04-24T10:55:14Z,25375,False,MindIE-LLM,verylucky01/MindIE-LLM,git@github.com:verylucky01/MindIE-LLM.git,0,False,False,False,"cmake configure failed (rc=1):   Add the installation prefix of ""prometheus-cpp"" to CMAKE_PREFIX_PATH or set
+  ""prometheus-cpp_DIR"" to a directory containing one of the above files.  If
+  ""prometheus-cpp"" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQt6v3w,2025-12-23T18:17:30Z,2026-05-02T10:42:09Z,2026-05-02T10:42:07Z,18479,True,Agam,Aruvili/Agam,git@github.com:Aruvili/Agam.git,6,False,False,False,"cmake configure failed (rc=1): .cmake
+    llvm-config.cmake
+
+  Add the installation prefix of ""LLVM"" to CMAKE_PREFIX_PATH or set
+  ""LLVM_DIR"" to a directory containing one of the above files.  If ""LLVM""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQtUuGA,2025-12-22T17:49:14Z,2026-04-14T00:50:26Z,2026-03-26T19:02:16Z,59613,True,sandook,mit-sandook/sandook,git@github.com:mit-sandook/sandook.git,1,True,False,False,"cmake build failed (rc=2): les/gtest.dir/src/gtest-all.cc.o""
+/usr/bin/ranlib ../../../lib/libgtest.a
+gmake[2]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+[ 12%] Built target gtest
+gmake[1]: Leaving directory '/gpfs/work5/0/prjs2109/dataset/repos/sandook/build'
+gmake: *** [Makefile:169: all] Error 2"
+R_kgDOQtDBLw,2025-12-22T08:42:01Z,2026-04-26T08:34:57Z,2026-04-26T08:34:53Z,2851,True,safeserial,Technoculture/safeserial,git@github.com:Technoculture/safeserial.git,1,True,True,True,
+R_kgDOQs-OWQ,2025-12-22T05:53:29Z,2026-03-25T06:20:09Z,2026-03-25T06:20:04Z,43431,False,tetris,leaf-nam/tetris,git@github.com:leaf-nam/tetris.git,4,True,True,False,"ctest failed (rc=8): Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/tetris/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/tetris/build
+No tests were found!!!
+Errors while running CTest"
+R_kgDOQsy62Q,2025-12-21T19:41:38Z,2026-04-17T22:25:31Z,2026-05-05T12:13:42Z,261295,True,toast-engine,nullptr-studios/toast-engine,git@github.com:nullptr-studios/toast-engine.git,4,False,False,False,"cmake configure failed (rc=1): .cmake
+    asio-config.cmake
+
+  Add the installation prefix of ""asio"" to CMAKE_PREFIX_PATH or set
+  ""asio_DIR"" to a directory containing one of the above files.  If ""asio""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQsae4Q,2025-12-20T23:50:32Z,2026-04-14T16:19:03Z,2026-05-02T19:23:27Z,11358,False,group7,pat-mart/group7,git@github.com:pat-mart/group7.git,0,False,False,False,"cmake configure failed (rc=1): CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 4.0 or higher is required.  You are running version 3.31.3
+
+
+-- Configuring incomplete, errors occurred!"

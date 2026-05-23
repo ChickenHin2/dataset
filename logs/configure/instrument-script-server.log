@@ -1,0 +1,36 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/instrument-script-server)
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Version: 1.1.6
+-- Git commit: 829f83575c2185365a5c10718fd19cf38d6bd773
+-- Git tag: v1.1.7
+-- No ccache/sccache found (fine, builds will just be normal).
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Found Lua: /usr/lib64/liblua-5.4.so;/usr/lib64/libm.so (found version "5.4.4")
+CMake Error at CMakeLists.txt:102 (find_package):
+  Could not find a package configuration file provided by "spdlog" with any
+  of the following names:
+
+    spdlogConfig.cmake
+    spdlog-config.cmake
+
+  Add the installation prefix of "spdlog" to CMAKE_PREFIX_PATH or set
+  "spdlog_DIR" to a directory containing one of the above files.  If "spdlog"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!

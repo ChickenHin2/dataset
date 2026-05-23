@@ -1,0 +1,100 @@
+
+$ cmake --build build -j  (cwd=repos/tetris)
+[  2%] Building CXX object lobby/source/CMakeFiles/lobby.dir/lobby.cpp.o
+[  6%] Building CXX object core/source/util/CMakeFiles/util.dir/timer.cpp.o
+[ 17%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/block_renderer.cpp.o
+[ 20%] Building CXX object setting/source/CMakeFiles/setting.dir/setting_storage.cpp.o
+[ 20%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule_forty_lines.cpp.o
+[  6%] Building CXX object core/source/tetromino/CMakeFiles/tetromino.dir/tetromino.cpp.o
+[ 20%] Building CXX object platform/linux/source/input/CMakeFiles/input.dir/linux_input_factory.cpp.o
+[  6%] Building CXX object menu/source/CMakeFiles/menu.dir/menu.cpp.o
+[ 20%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/box_renderer.cpp.o
+[ 13%] Building CXX object core/source/tetromino/CMakeFiles/tetromino.dir/tetromino_queue.cpp.o
+[ 20%] Building CXX object setting/source/CMakeFiles/setting.dir/setting_manager.cpp.o
+[ 20%] Building CXX object platform/linux/source/input/CMakeFiles/input.dir/linux_input.cpp.o
+[ 20%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/input_window_renderer.cpp.o
+[ 20%] Building CXX object platform/linux/source/input/CMakeFiles/input.dir/linux_lobby_input_handler.cpp.o
+[ 20%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_console_renderer.cpp.o
+[ 24%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_menu_renderer.cpp.o
+[ 28%] Building CXX object platform/linux/source/lobby_network/CMakeFiles/linux_lobby_network.dir/linux_lobby_network.cpp.o
+[ 28%] Building CXX object core/source/board/CMakeFiles/board.dir/board.cpp.o
+[ 28%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/key_mapper.cpp.o
+[ 28%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/color_picker.cpp.o
+[ 47%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_setting_renderer.cpp.o
+[ 47%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_multi_renderer.cpp.o
+[ 47%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule_factory.cpp.o
+[ 48%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule_blitz.cpp.o
+[ 47%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/theme.cpp.o
+[ 47%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_render_factory.cpp.o
+[ 47%] Building CXX object platform/common/source/render/CMakeFiles/common_render.dir/text_renderer.cpp.o
+[ 47%] Building CXX object platform/linux/source/util/CMakeFiles/linux_util.dir/shadow_maker.cpp.o
+[ 48%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/wall_kick.cpp.o
+[ 47%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_lobby_renderer.cpp.o
+[ 47%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule.cpp.o
+[ 47%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/action_resolver.cpp.o
+[ 47%] Building CXX object platform/linux/source/render/CMakeFiles/linux_render.dir/linux_renderer.cpp.o
+[ 47%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule_versus.cpp.o
+[ 47%] Building CXX object platform/linux/source/network/CMakeFiles/network.dir/linux_network.cpp.o
+[ 48%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 50%] Building CXX object core/source/tetromino/CMakeFiles/tetromino.dir/tetromino_shape.cpp.o
+[ 51%] Building CXX object core/source/game_rule/CMakeFiles/game_rule.dir/rule_zen.cpp.o
+[ 52%] Building CXX object core/source/util/CMakeFiles/util.dir/rand_gen.cpp.o
+[ 54%] Linking CXX static library libmenu.a
+[ 54%] Built target menu
+[ 55%] Linking CXX static library libgame_rule.a
+[ 56%] Linking CXX static library libinput.a
+[ 58%] Linking CXX static library libtetromino.a
+[ 58%] Built target game_rule
+[ 59%] Linking CXX static library liblinux_lobby_network.a
+[ 59%] Built target tetromino
+[ 60%] Linking CXX static library libboard.a
+[ 60%] Built target input
+[ 62%] Linking CXX static library libsetting.a
+[ 63%] Linking CXX static library libcommon_render.a
+[ 63%] Built target linux_lobby_network
+[ 63%] Built target board
+[ 64%] Linking CXX static library liblinux_util.a
+[ 64%] Built target setting
+[ 66%] Linking CXX static library libutil.a
+[ 66%] Built target common_render
+[ 66%] Built target linux_util
+[ 66%] Built target util
+[ 67%] Linking CXX static library libnetwork.a
+[ 68%] Building CXX object core/source/engine/CMakeFiles/engine.dir/multi_engine.cpp.o
+[ 71%] Building CXX object core/source/engine/CMakeFiles/engine.dir/solo_engine.cpp.o
+[ 71%] Building CXX object core/source/engine/CMakeFiles/engine.dir/engine.cpp.o
+[ 71%] Built target network
+[ 72%] Linking CXX static library liblinux_render.a
+[ 72%] Built target linux_render
+[ 74%] Linking CXX static library liblobby.a
+[ 74%] Built target lobby
+[ 75%] Linking CXX static library libengine.a
+[ 75%] Built target engine
+[ 77%] Building CXX object platform/linux/source/main/CMakeFiles/tetris.dir/tetris.cpp.o
+[ 78%] Linking CXX executable /gpfs/work5/0/prjs2109/dataset/repos/tetris/tetris
+[ 78%] Built target tetris
+[ 79%] Linking CXX static library ../../../lib/libgtest.a
+[ 79%] Built target gtest
+[ 81%] Building CXX object test/core/tetromino/CMakeFiles/tetromino_test.dir/tetromino_queue_test.cpp.o
+[ 82%] Building CXX object test/core/tetromino/CMakeFiles/tetromino_test.dir/tetromino_test.cpp.o
+[ 85%] Building CXX object test/core/util/CMakeFiles/util_test.dir/util_test.cpp.o
+[ 85%] Building CXX object test/core/board/CMakeFiles/board_test.dir/board_test.cpp.o
+[ 86%] Building CXX object test/core/game_rule/CMakeFiles/game_rule_test.dir/game_rule_test.cpp.o
+[ 89%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 89%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 90%] Linking CXX static library libtetromino_test.a
+[ 91%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 91%] Built target util_test
+[ 91%] Built target tetromino_test
+[ 93%] Linking CXX static library libboard_test.a
+[ 93%] Built target gtest_main
+[ 93%] Built target game_rule_test
+[ 93%] Built target board_test
+[ 94%] Building CXX object test/CMakeFiles/unit_test.dir/main_unit_test.cpp.o
+[ 95%] Linking CXX executable unit_test
+[ 95%] Built target unit_test
+[ 97%] Linking CXX static library ../../../lib/libgmock.a
+[ 97%] Built target gmock
+[ 98%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[100%] Linking CXX static library ../../../lib/libgmock_main.a
+[100%] Built target gmock_main

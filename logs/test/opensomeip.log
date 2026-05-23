@@ -1,0 +1,38 @@
+
+$ ctest --test-dir build --output-on-failure --no-tests=error  (cwd=repos/opensomeip)
+Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/opensomeip/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/opensomeip/build
+      Start  1: test_pal_freertos_mock
+ 1/15 Test  #1: test_pal_freertos_mock ...........   Passed    0.52 sec
+      Start  2: test_pal_threadx_mock
+ 2/15 Test  #2: test_pal_threadx_mock ............   Passed    0.51 sec
+      Start  3: test_pal_zephyr_mock
+ 3/15 Test  #3: test_pal_zephyr_mock .............   Passed    0.61 sec
+      Start  4: PlatformThreadingTest
+ 4/15 Test  #4: PlatformThreadingTest ............   Passed    0.15 sec
+      Start  5: SerializationTest
+ 5/15 Test  #5: SerializationTest ................   Passed    0.02 sec
+      Start  6: MessageTest
+ 6/15 Test  #6: MessageTest ......................   Passed    0.02 sec
+      Start  7: SessionManagerTest
+ 7/15 Test  #7: SessionManagerTest ...............   Passed    0.04 sec
+      Start  8: EndpointTest
+ 8/15 Test  #8: EndpointTest .....................   Passed    0.02 sec
+      Start  9: RpcTest
+ 9/15 Test  #9: RpcTest ..........................   Passed    0.02 sec
+      Start 10: SdTest
+10/15 Test #10: SdTest ...........................   Passed    0.87 sec
+      Start 11: EventsTest
+11/15 Test #11: EventsTest .......................   Passed    0.02 sec
+      Start 12: TcpTransportTest
+12/15 Test #12: TcpTransportTest .................   Passed    1.13 sec
+      Start 13: UdpTransportTest
+13/15 Test #13: UdpTransportTest .................   Passed    0.53 sec
+      Start 14: TpTest
+14/15 Test #14: TpTest ...........................   Passed    0.27 sec
+      Start 15: E2ETest
+15/15 Test #15: E2ETest ..........................   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 15
+
+Total Test time (real) =   5.01 sec

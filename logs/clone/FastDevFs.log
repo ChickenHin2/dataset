@@ -1,0 +1,3 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:devlup-labs/FastDevFs.git  (cwd=repos)
+Cloning into 'FastDevFs'...

@@ -1,0 +1,41 @@
+
+$ cmake --build build -j  (cwd=repos/gn10-can)
+[ 10%] Building CXX object CMakeFiles/gn10_can.dir/src/core/can_bus.cpp.o
+[ 23%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/esc_hub_client.cpp.o
+[ 23%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 26%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/motor_driver_client.cpp.o
+[ 26%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/esc_hub_server.cpp.o
+[ 26%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/motor_driver_server.cpp.o
+[ 30%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/motor_driver_types.cpp.o
+[ 30%] Building CXX object CMakeFiles/gn10_can.dir/src/core/fdcan_bus.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/solenoid_driver_client.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/power_manager_client.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/servo_motor_client.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/servo_motor_server.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/solenoid_driver_server.cpp.o
+[ 46%] Building CXX object CMakeFiles/gn10_can.dir/src/devices/power_manager_server.cpp.o
+[ 50%] Linking CXX static library libgn10_can.a
+[ 50%] Built target gn10_can
+[ 53%] Linking CXX static library ../../../lib/libgtest.a
+[ 53%] Built target gtest
+[ 56%] Building CXX object _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 60%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+[ 63%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 63%] Built target gtest_main
+[ 66%] Building CXX object tests/CMakeFiles/test_motor_driver.dir/test_motor_driver.cpp.o
+[ 70%] Building CXX object tests/CMakeFiles/test_can_frame.dir/test_can_frame.cpp.o
+[ 76%] Building CXX object tests/CMakeFiles/test_can_converter.dir/test_can_converter.cpp.o
+[ 76%] Building CXX object tests/CMakeFiles/test_can_bus.dir/test_can_bus.cpp.o
+[ 80%] Linking CXX executable test_can_converter
+[ 83%] Linking CXX executable test_can_frame
+[ 83%] Built target test_can_converter
+[ 83%] Built target test_can_frame
+[ 86%] Linking CXX executable test_can_bus
+[ 90%] Linking CXX executable test_motor_driver
+[ 90%] Built target test_can_bus
+[ 90%] Built target test_motor_driver
+[ 93%] Linking CXX static library ../../../lib/libgmock.a
+[ 93%] Built target gmock
+[ 96%] Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+[100%] Linking CXX static library ../../../lib/libgmock_main.a
+[100%] Built target gmock_main

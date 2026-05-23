@@ -1,0 +1,4 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/SEC26Mirror)
+CMake Error: The source directory "/gpfs/work5/0/prjs2109/dataset/repos/SEC26Mirror" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.

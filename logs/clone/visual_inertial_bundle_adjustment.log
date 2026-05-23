@@ -1,0 +1,11 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules org-16943930@github.com:facebookresearch/visual_inertial_bundle_adjustment.git  (cwd=repos)
+Cloning into 'visual_inertial_bundle_adjustment'...
+Submodule 'deps/baspacho' (https://github.com/facebookresearch/baspacho) registered for path 'deps/baspacho'
+Submodule 'deps/projectaria_tools' (https://github.com/facebookresearch/projectaria_tools) registered for path 'deps/projectaria_tools'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/visual_inertial_bundle_adjustment/deps/baspacho'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/visual_inertial_bundle_adjustment/deps/projectaria_tools'...
+Submodule path 'deps/baspacho': checked out 'bd833260082023d5581b4996360a43a4de058d49'
+From https://github.com/facebookresearch/projectaria_tools
+ * branch            92401622a5a5bacf18cbcaf2e80023c771162e40 -> FETCH_HEAD
+Submodule path 'deps/projectaria_tools': checked out '92401622a5a5bacf18cbcaf2e80023c771162e40'

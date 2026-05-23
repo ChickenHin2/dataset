@@ -1,0 +1,10 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQsYsUw,2025-12-20T21:48:51Z,2026-05-05T19:17:32Z,2026-05-05T19:17:33Z,1957,False,MolarTracker,97gamjak/MolarTracker,git@github.com:97gamjak/MolarTracker.git,0,False,False,False,"cmake configure failed (rc=1): Config.cmake
+    qt6-config.cmake
+
+  Add the installation prefix of ""Qt6"" to CMAKE_PREFIX_PATH or set ""Qt6_DIR""
+  to a directory containing one of the above files.  If ""Qt6"" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!"

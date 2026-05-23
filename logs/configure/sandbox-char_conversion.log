@@ -1,0 +1,26 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/sandbox-char_conversion)
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at src/beman/exemplar/CMakeLists.txt:19 (find_package):
+  By not providing "Findbeman-install-library.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "beman-install-library", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "beman-install-library" with any of the following names:
+
+    beman-install-libraryConfig.cmake
+    beman-install-library-config.cmake
+
+  Add the installation prefix of "beman-install-library" to CMAKE_PREFIX_PATH
+  or set "beman-install-library_DIR" to a directory containing one of the
+  above files.  If "beman-install-library" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!

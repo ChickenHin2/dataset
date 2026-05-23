@@ -1,0 +1,77 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/sandook)
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/cc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- LTO is enabled.
+CMake Deprecation Warning at build/_deps/googletest-src/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at build/_deps/googletest-src/googlemock/CMakeLists.txt:39 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+CMake Deprecation Warning at build/_deps/googletest-src/googletest/CMakeLists.txt:49 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- Found Python: /usr/bin/python3.11 (found version "3.11.11") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Building caladan
+-- No Caladan libruntime.a found to check LTO status; ignoring
+rm -f base/bitmap.o base/cpu.o base/init.o base/jenkins_hash.o base/list.o base/log.o base/lrpc.o base/mem.o base/mempool.o base/page.o base/pci.o base/slab.o base/stat.o base/sysfs.o base/tcache.o base/thread.o base/time.o net/mbuf.o net/netdump.o runtime/cfg.o runtime/gc.o runtime/init.o runtime/ioqueues.o runtime/kthread.o runtime/poll.o runtime/preempt.o runtime/rcu.o runtime/sched.o runtime/smalloc.o runtime/softirq.o runtime/stack.o runtime/stat.o runtime/storage.o runtime/sync.o runtime/timer.o runtime/net/arp.o runtime/net/core.o runtime/net/icmp.o runtime/net/ping.o runtime/net/tcp.o runtime/net/tcp_debug.o runtime/net/tcp_in.o runtime/net/tcp_out.o runtime/net/transport.o runtime/net/udp.o runtime/net/directpath/common.o runtime/net/directpath/mlx5/mlx5_flow_steering.o runtime/net/directpath/mlx5/mlx5_init_common.o runtime/net/directpath/mlx5/mlx5_init_external.o runtime/net/directpath/mlx5/mlx5_init_verbs.o runtime/net/directpath/mlx5/mlx5_queue_steering.o runtime/net/directpath/mlx5/mlx5_rx_stride.o runtime/net/directpath/mlx5/mlx5_rxtx.o iokernel/commands.o iokernel/control.o iokernel/dp_clients.o iokernel/dpdk.o iokernel/hw_timestamp.o iokernel/ias_bw.o iokernel/ias.o iokernel/ias_ht.o iokernel/ias_ts.o iokernel/ksched.o iokernel/main.o iokernel/mempool_completion.o iokernel/numa.o iokernel/rx.o iokernel/sched.o iokernel/simple.o iokernel/stat.o iokernel/timer_wheel.o iokernel/tx.o iokernel/directpath/arp_fwd.o iokernel/directpath/command.o iokernel/directpath/core.o iokernel/directpath/events.o iokernel/directpath/queues.o iokernel/directpath/steering.o tests/netperf.o tests/test_base_gen.o tests/test_base_hello.o tests/test_base_lrpc.o tests/test_base_thread.o tests/test_kthread_attach.o tests/test_kthread_wakeup.o tests/test_many_threads.o tests/test_multiple_runtimes.o tests/test_ping.o tests/test_runtime_mutexes.o tests/test_runtime_rcu.o tests/test_runtime_smalloc.o tests/test_runtime_threads.o tests/test_runtime_timer.o tests/test_storage.o tests/test_storage_iops.o runtime/switch.o base/bitmap.d base/cpu.d base/init.d base/jenkins_hash.d base/list.d base/log.d base/lrpc.d base/mem.d base/mempool.d base/page.d base/pci.d base/slab.d base/stat.d base/sysfs.d base/tcache.d base/thread.d base/time.d net/mbuf.d net/netdump.d runtime/cfg.d runtime/gc.d runtime/init.d runtime/ioqueues.d runtime/kthread.d runtime/poll.d runtime/preempt.d runtime/rcu.d runtime/sched.d runtime/smalloc.d runtime/softirq.d runtime/stack.d runtime/stat.d runtime/storage.d runtime/sync.d runtime/timer.d runtime/net/arp.d runtime/net/core.d runtime/net/icmp.d runtime/net/ping.d runtime/net/tcp.d runtime/net/tcp_debug.d runtime/net/tcp_in.d runtime/net/tcp_out.d runtime/net/transport.d runtime/net/udp.d runtime/net/directpath/common.d runtime/net/directpath/mlx5/mlx5_flow_steering.d runtime/net/directpath/mlx5/mlx5_init_common.d runtime/net/directpath/mlx5/mlx5_init_external.d runtime/net/directpath/mlx5/mlx5_init_verbs.d runtime/net/directpath/mlx5/mlx5_queue_steering.d runtime/net/directpath/mlx5/mlx5_rx_stride.d runtime/net/directpath/mlx5/mlx5_rxtx.d iokernel/commands.d iokernel/control.d iokernel/dp_clients.d iokernel/dpdk.d iokernel/hw_timestamp.d iokernel/ias_bw.d iokernel/ias.d iokernel/ias_ht.d iokernel/ias_ts.d iokernel/ksched.d iokernel/main.d iokernel/mempool_completion.d iokernel/numa.d iokernel/rx.d iokernel/sched.d iokernel/simple.d iokernel/stat.d iokernel/timer_wheel.d iokernel/tx.d iokernel/directpath/arp_fwd.d iokernel/directpath/command.d iokernel/directpath/core.d iokernel/directpath/events.d iokernel/directpath/queues.d iokernel/directpath/steering.d tests/netperf.d tests/test_base_gen.d tests/test_base_hello.d tests/test_base_lrpc.d tests/test_base_thread.d tests/test_kthread_attach.d tests/test_kthread_wakeup.d tests/test_many_threads.d tests/test_multiple_runtimes.d tests/test_ping.d tests/test_runtime_mutexes.d tests/test_runtime_rcu.d tests/test_runtime_smalloc.d tests/test_runtime_threads.d tests/test_runtime_timer.d tests/test_storage.d tests/test_storage_iops.d runtime/switch.d libbase.a libnet.a libruntime.a \
+iokerneld tests/netperf tests/test_base_gen tests/test_base_hello tests/test_base_lrpc tests/test_base_thread tests/test_kthread_attach tests/test_kthread_wakeup tests/test_many_threads tests/test_multiple_runtimes tests/test_ping tests/test_runtime_mutexes tests/test_runtime_rcu tests/test_runtime_smalloc tests/test_runtime_threads tests/test_runtime_timer tests/test_storage tests/test_storage_iops
+rm -f runtime.o thread.o net.o test.o runtime.d thread.d net.d test.d librt++.a test
+-- LTO is enabled for Caladan.
+-- Building config
+-- Building base
+-- Building bindings
+-- Building mem
+-- Building rpc
+-- Building blk_dev
+-- Building disk_server
+-- Building controller
+-- Building virtual_disk
+-- Building samples
+-- Building read_write_blk_dev
+-- Building test
+-- Building utils
+-- Configuring done (24.3s)
+-- Generating done (3.1s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    BUILD_TESTS
+
+
+-- Build files have been written to: /gpfs/work5/0/prjs2109/dataset/repos/sandook/build

@@ -1,0 +1,52 @@
+
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=ON -DBUILD_TESTS=ON  (cwd=repos/camera-service)
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /sw/arch/RHEL9/EB_production/2025/software/GCCcore/14.2.0/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for display/media/mmm_color_fmt.h
+-- Looking for display/media/mmm_color_fmt.h - not found
+-- Looking for adreno/c2d2.h
+-- Looking for adreno/c2d2.h - not found
+-- Looking for cutils/properties.h
+-- Looking for cutils/properties.h - not found
+-- Looking for C++ include chicdk/chiofflinepostprocintf.h
+-- Looking for C++ include chicdk/chiofflinepostprocintf.h - not found
+-- Looking for C++ include binder/IBinder.h
+-- Looking for C++ include binder/IBinder.h - not found
+-- Looking for gbm_priv.h
+-- Looking for gbm_priv.h - not found
+CMake Warning at common/proto/CMakeLists.txt:3 (find_package):
+  By not providing "Findabsl.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "absl", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "absl" with any of
+  the following names:
+
+    abslConfig.cmake
+    absl-config.cmake
+
+  Add the installation prefix of "absl" to CMAKE_PREFIX_PATH or set
+  "absl_DIR" to a directory containing one of the above files.  If "absl"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+CMake Error at /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:233 (message):
+  Could NOT find Protobuf (missing: Protobuf_LIBRARIES Protobuf_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindProtobuf.cmake:772 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  common/proto/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,163 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:mit-sandook/sandook.git  (cwd=repos)
+Cloning into 'sandook'...
+Updating files:  19% (204/1027)
+Updating files:  20% (206/1027)
+Updating files:  21% (216/1027)
+Updating files:  22% (226/1027)
+Updating files:  23% (237/1027)
+Updating files:  24% (247/1027)
+Updating files:  25% (257/1027)
+Updating files:  26% (268/1027)
+Updating files:  27% (278/1027)
+Updating files:  28% (288/1027)
+Updating files:  29% (298/1027)
+Updating files:  30% (309/1027)
+Updating files:  31% (319/1027)
+Updating files:  32% (329/1027)
+Updating files:  33% (339/1027)
+Updating files:  34% (350/1027)
+Updating files:  35% (360/1027)
+Updating files:  36% (370/1027)
+Updating files:  37% (380/1027)
+Updating files:  38% (391/1027)
+Updating files:  39% (401/1027)
+Updating files:  40% (411/1027)
+Updating files:  41% (422/1027)
+Updating files:  42% (432/1027)
+Updating files:  42% (439/1027)
+Updating files:  43% (442/1027)
+Updating files:  44% (452/1027)
+Updating files:  45% (463/1027)
+Updating files:  46% (473/1027)
+Updating files:  47% (483/1027)
+Updating files:  48% (493/1027)
+Updating files:  49% (504/1027)
+Updating files:  50% (514/1027)
+Updating files:  51% (524/1027)
+Updating files:  52% (535/1027)
+Updating files:  53% (545/1027)
+Updating files:  54% (555/1027)
+Updating files:  55% (565/1027)
+Updating files:  56% (576/1027)
+Updating files:  57% (586/1027)
+Updating files:  58% (596/1027)
+Updating files:  59% (606/1027)
+Updating files:  60% (617/1027)
+Updating files:  61% (627/1027)
+Updating files:  62% (637/1027)
+Updating files:  63% (648/1027)
+Updating files:  64% (658/1027)
+Updating files:  65% (668/1027)
+Updating files:  65% (677/1027)
+Updating files:  66% (678/1027)
+Updating files:  67% (689/1027)
+Updating files:  68% (699/1027)
+Updating files:  69% (709/1027)
+Updating files:  70% (719/1027)
+Updating files:  71% (730/1027)
+Updating files:  72% (740/1027)
+Updating files:  73% (750/1027)
+Updating files:  74% (760/1027)
+Updating files:  75% (771/1027)
+Updating files:  76% (781/1027)
+Updating files:  77% (791/1027)
+Updating files:  78% (802/1027)
+Updating files:  79% (812/1027)
+Updating files:  80% (822/1027)
+Updating files:  81% (832/1027)
+Updating files:  82% (843/1027)
+Updating files:  83% (853/1027)
+Updating files:  84% (863/1027)
+Updating files:  85% (873/1027)
+Updating files:  86% (884/1027)
+Updating files:  87% (894/1027)
+Updating files:  88% (904/1027)
+Updating files:  89% (915/1027)
+Updating files:  90% (925/1027)
+Updating files:  91% (935/1027)
+Updating files:  92% (945/1027)
+Updating files:  93% (956/1027)
+Updating files:  94% (966/1027)
+Updating files:  95% (976/1027)
+Updating files:  96% (986/1027)
+Updating files:  97% (997/1027)
+Updating files:  98% (1007/1027)
+Updating files:  99% (1017/1027)
+Updating files: 100% (1027/1027)
+Updating files: 100% (1027/1027), done.
+Submodule 'lib/FlameGraph' (https://github.com/brendangregg/FlameGraph.git) registered for path 'lib/FlameGraph'
+Submodule 'lib/caladan' (https://github.com/shenango/caladan.git) registered for path 'lib/caladan'
+Submodule 'lib/liburing' (https://github.com/axboe/liburing.git) registered for path 'lib/liburing'
+Submodule 'lib/ubdsrv' (https://github.com/ming1/ubdsrv) registered for path 'lib/ubdsrv'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/FlameGraph'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/liburing'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/ubdsrv'...
+From https://github.com/brendangregg/FlameGraph
+ * branch            d9fcc272b6a08c3e3e5b7919040f0ab5f8952d65 -> FETCH_HEAD
+Submodule path 'lib/FlameGraph': checked out 'd9fcc272b6a08c3e3e5b7919040f0ab5f8952d65'
+From https://github.com/shenango/caladan
+ * branch            2c24200e6672cf4ec0411e0e8ac77035c3bba446 -> FETCH_HEAD
+Submodule path 'lib/caladan': checked out '2c24200e6672cf4ec0411e0e8ac77035c3bba446'
+Submodule 'apps/storage_service/snappy' (https://github.com/google/snappy.git) registered for path 'lib/caladan/apps/storage_service/snappy'
+Submodule 'deps/pcm' (https://github.com/opcm/pcm.git) registered for path 'lib/caladan/deps/pcm'
+Submodule 'dpdk' (https://github.com/DPDK/dpdk) registered for path 'lib/caladan/dpdk'
+Submodule 'rdma-core' (https://github.com/linux-rdma/rdma-core) registered for path 'lib/caladan/rdma-core'
+Submodule 'spdk' (https://github.com/spdk/spdk) registered for path 'lib/caladan/spdk'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/apps/storage_service/snappy'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/deps/pcm'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/dpdk'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/rdma-core'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk'...
+From https://github.com/google/snappy
+ * branch            537f4ad6240e586970fe554614542e9717df7902 -> FETCH_HEAD
+Submodule path 'lib/caladan/apps/storage_service/snappy': checked out '537f4ad6240e586970fe554614542e9717df7902'
+From https://github.com/opcm/pcm
+ * branch            e54cac6c97e93516f9ce6a897670c51934af709e -> FETCH_HEAD
+Submodule path 'lib/caladan/deps/pcm': checked out 'e54cac6c97e93516f9ce6a897670c51934af709e'
+Submodule 'src/simdjson' (https://github.com/simdjson/simdjson.git) registered for path 'lib/caladan/deps/pcm/src/simdjson'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/deps/pcm/src/simdjson'...
+From https://github.com/simdjson/simdjson
+ * branch            e6c90b8efb5a4f3fbd93db01181c2b22e0c92167 -> FETCH_HEAD
+Submodule path 'lib/caladan/deps/pcm/src/simdjson': checked out 'e6c90b8efb5a4f3fbd93db01181c2b22e0c92167'
+From https://github.com/DPDK/dpdk
+ * branch            80c5b4d6355d1dbece8dd1f812d374f3e24086bc -> FETCH_HEAD
+Submodule path 'lib/caladan/dpdk': checked out '80c5b4d6355d1dbece8dd1f812d374f3e24086bc'
+From https://github.com/linux-rdma/rdma-core
+ * branch            53ee89b4abb1463e7ae713103f552b2bef1307ce -> FETCH_HEAD
+Submodule path 'lib/caladan/rdma-core': checked out '53ee89b4abb1463e7ae713103f552b2bef1307ce'
+From https://github.com/spdk/spdk
+ * branch            797ff94b2351458ced0e15f440198cacd510b2fe -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk': checked out '797ff94b2351458ced0e15f440198cacd510b2fe'
+Submodule 'dpdk' (https://github.com/spdk/dpdk.git) registered for path 'lib/caladan/spdk/dpdk'
+Submodule 'intel-ipsec-mb' (https://github.com/spdk/intel-ipsec-mb.git) registered for path 'lib/caladan/spdk/intel-ipsec-mb'
+Submodule 'isa-l' (https://github.com/spdk/isa-l.git) registered for path 'lib/caladan/spdk/isa-l'
+Submodule 'libvfio-user' (https://github.com/nutanix/libvfio-user.git) registered for path 'lib/caladan/spdk/libvfio-user'
+Submodule 'ocf' (https://github.com/Open-CAS/ocf.git) registered for path 'lib/caladan/spdk/ocf'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk/dpdk'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk/intel-ipsec-mb'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk/isa-l'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk/libvfio-user'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/sandook/lib/caladan/spdk/ocf'...
+From https://github.com/spdk/dpdk
+ * branch            956790c3a711efae8eae8d3f366207f01495709b -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk/dpdk': checked out '956790c3a711efae8eae8d3f366207f01495709b'
+From https://github.com/spdk/intel-ipsec-mb
+ * branch            5b6f01f1d52c5a2a577b47094b8d358541fdcb5e -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk/intel-ipsec-mb': checked out '5b6f01f1d52c5a2a577b47094b8d358541fdcb5e'
+From https://github.com/spdk/isa-l
+ * branch            2df39cf5f1b9ccaa2973f6ef273857e4dc46f0cf -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk/isa-l': checked out '2df39cf5f1b9ccaa2973f6ef273857e4dc46f0cf'
+From https://github.com/nutanix/libvfio-user
+ * branch            b427c6084311f0c620bf4afe7746739e8c887977 -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk/libvfio-user': checked out 'b427c6084311f0c620bf4afe7746739e8c887977'
+From https://github.com/Open-CAS/ocf
+ * branch            4477cb55a0bcd313a5ebcfdf877ca76a31695df7 -> FETCH_HEAD
+Submodule path 'lib/caladan/spdk/ocf': checked out '4477cb55a0bcd313a5ebcfdf877ca76a31695df7'
+From https://github.com/axboe/liburing
+ * branch            dda4848a9911120a903bef6284fb88286f4464c9 -> FETCH_HEAD
+Submodule path 'lib/liburing': checked out 'dda4848a9911120a903bef6284fb88286f4464c9'
+From https://github.com/ming1/ubdsrv
+ * branch            2a77a7351367489c7c89f25171d4a0f208a50afd -> FETCH_HEAD
+Submodule path 'lib/ubdsrv': checked out '2a77a7351367489c7c89f25171d4a0f208a50afd'

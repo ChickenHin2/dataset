@@ -1,0 +1,42 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:archebase/axon.git  (cwd=repos)
+Cloning into 'axon'...
+Updating files:  80% (431/535)
+Updating files:  81% (434/535)
+Updating files:  82% (439/535)
+Updating files:  83% (445/535)
+Updating files:  84% (450/535)
+Updating files:  85% (455/535)
+Updating files:  86% (461/535)
+Updating files:  87% (466/535)
+Updating files:  88% (471/535)
+Updating files:  89% (477/535)
+Updating files:  90% (482/535)
+Updating files:  91% (487/535)
+Updating files:  92% (493/535)
+Updating files:  93% (498/535)
+Updating files:  94% (503/535)
+Updating files:  95% (509/535)
+Updating files:  96% (514/535)
+Updating files:  97% (519/535)
+Updating files:  98% (525/535)
+Updating files:  99% (530/535)
+Updating files: 100% (535/535)
+Updating files: 100% (535/535), done.
+Submodule 'middlewares/filters/depthlitez' (git@github.com:archebase/depthlitez.git) registered for path 'middlewares/filters/depthlitez'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/axon/middlewares/filters/depthlitez'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:archebase/depthlitez.git' into submodule path '/gpfs/work5/0/prjs2109/dataset/repos/axon/middlewares/filters/depthlitez' failed
+Failed to clone 'middlewares/filters/depthlitez'. Retry scheduled
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/axon/middlewares/filters/depthlitez'...
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:archebase/depthlitez.git' into submodule path '/gpfs/work5/0/prjs2109/dataset/repos/axon/middlewares/filters/depthlitez' failed
+Failed to clone 'middlewares/filters/depthlitez' a second time, aborting

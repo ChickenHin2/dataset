@@ -1,0 +1,46 @@
+
+$ ctest --test-dir build --output-on-failure --no-tests=error  (cwd=repos/llm_on_riscv)
+Internal ctest changing into directory: /gpfs/work5/0/prjs2109/dataset/repos/llm_on_riscv/build
+Test project /gpfs/work5/0/prjs2109/dataset/repos/llm_on_riscv/build
+      Start  1: hello_test
+ 1/19 Test  #1: hello_test .......................   Passed    0.02 sec
+      Start  2: matmul_test
+ 2/19 Test  #2: matmul_test ......................   Passed   19.61 sec
+      Start  3: mul_test
+ 3/19 Test  #3: mul_test .........................   Passed    1.30 sec
+      Start  4: simplified_layernorm_test
+ 4/19 Test  #4: simplified_layernorm_test ........   Passed    0.84 sec
+      Start  5: skip_simplified_layernorm_test
+ 5/19 Test  #5: skip_simplified_layernorm_test ...   Passed    0.07 sec
+      Start  6: add_test
+ 6/19 Test  #6: add_test .........................   Passed    0.03 sec
+      Start  7: group_query_attention_test
+ 7/19 Test  #7: group_query_attention_test .......   Passed    0.02 sec
+      Start  8: shape_test
+ 8/19 Test  #8: shape_test .......................   Passed    0.08 sec
+      Start  9: constant_test
+ 9/19 Test  #9: constant_test ....................   Passed    0.12 sec
+      Start 10: gather_test
+10/19 Test #10: gather_test ......................   Passed    0.02 sec
+      Start 11: transpose_test
+11/19 Test #11: transpose_test ...................   Passed    0.03 sec
+      Start 12: reduce_sum_test
+12/19 Test #12: reduce_sum_test ..................   Passed    0.02 sec
+      Start 13: unsqueeze_test
+13/19 Test #13: unsqueeze_test ...................   Passed    0.02 sec
+      Start 14: sub_test
+14/19 Test #14: sub_test .........................   Passed    1.22 sec
+      Start 15: cast_test
+15/19 Test #15: cast_test ........................   Passed    0.06 sec
+      Start 16: concat_test
+16/19 Test #16: concat_test ......................   Passed    0.03 sec
+      Start 17: reshape_test
+17/19 Test #17: reshape_test .....................   Passed    0.02 sec
+      Start 18: sigmoid_test
+18/19 Test #18: sigmoid_test .....................   Passed    0.13 sec
+      Start 19: rotary_embedding_test
+19/19 Test #19: rotary_embedding_test ............   Passed    0.02 sec
+
+100% tests passed, 0 tests failed out of 19
+
+Total Test time (real) =  23.68 sec

@@ -1,0 +1,8 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:doyaGu/CK2.git  (cwd=repos)
+Cloning into 'CK2'...
+Submodule 'deps/miniz' (https://github.com/richgel999/miniz.git) registered for path 'deps/miniz'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/CK2/deps/miniz'...
+From https://github.com/richgel999/miniz
+ * branch            d10b03cc73475af673df40f06e5cefd1d5f940d9 -> FETCH_HEAD
+Submodule path 'deps/miniz': checked out 'd10b03cc73475af673df40f06e5cefd1d5f940d9'

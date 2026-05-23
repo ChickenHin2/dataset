@@ -1,0 +1,98 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQrE7bg,2025-12-18T13:10:47Z,2026-04-09T17:47:19Z,2026-04-27T09:18:06Z,1951,True,entservices-xcast,rdkcentral/entservices-xcast,git@github.com:rdkcentral/entservices-xcast.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:34 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:37 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrE3Tw,2025-12-18T13:08:54Z,2026-04-09T17:30:15Z,2026-04-27T09:14:44Z,2011,True,entservices-miracast,rdkcentral/entservices-miracast,git@github.com:rdkcentral/entservices-miracast.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:34 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:37 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrE0XQ,2025-12-18T13:07:36Z,2026-04-09T18:01:59Z,2026-05-06T10:24:04Z,2467,True,entservices-maintenancemanager,rdkcentral/entservices-maintenancemanager,git@github.com:rdkcentral/entservices-maintenancemanager.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:35 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:38 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrExCQ,2025-12-18T13:06:01Z,2026-04-09T17:32:08Z,2026-04-23T10:37:38Z,2348,True,entservices-firmwareupdate,rdkcentral/entservices-firmwareupdate,git@github.com:rdkcentral/entservices-firmwareupdate.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:35 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:38 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQrAi6A,2025-12-18T10:58:27Z,2026-04-11T06:19:36Z,2026-04-11T06:19:27Z,1368,True,ATenSpace,o9nn/ATenSpace,git@github.com:o9nn/ATenSpace.git,0,False,False,False,"cmake configure failed (rc=1): CMake Error: The source directory ""/gpfs/work5/0/prjs2109/dataset/repos/ATenSpace"" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI."
+R_kgDOQqTBBQ,2025-12-17T08:55:12Z,2026-04-07T15:50:57Z,2026-04-07T15:50:37Z,225,False,engine_playground,oguzhanduguncu/engine_playground,git@github.com:oguzhanduguncu/engine_playground.git,1,False,False,False,"cmake configure failed (rc=1): .cmake
+    sdl2-config.cmake
+
+  Add the installation prefix of ""SDL2"" to CMAKE_PREFIX_PATH or set
+  ""SDL2_DIR"" to a directory containing one of the above files.  If ""SDL2""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQqGs1w,2025-12-17T01:03:48Z,2026-05-06T05:05:55Z,2026-05-06T05:06:09Z,65075,True,instrument-script-server,falcon-autotuning/instrument-script-server,git@github.com:falcon-autotuning/instrument-script-server.git,0,False,False,False,"cmake configure failed (rc=1):    spdlog-config.cmake
+
+  Add the installation prefix of ""spdlog"" to CMAKE_PREFIX_PATH or set
+  ""spdlog_DIR"" to a directory containing one of the above files.  If ""spdlog""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQp34og,2025-12-16T16:02:04Z,2026-04-29T12:09:34Z,2026-05-04T14:31:04Z,71426,False,decode-orc,simoninns/decode-orc,git@github.com:simoninns/decode-orc.git,12,False,False,False,"cmake configure failed (rc=1):    spdlog-config.cmake
+
+  Add the installation prefix of ""spdlog"" to CMAKE_PREFIX_PATH or set
+  ""spdlog_DIR"" to a directory containing one of the above files.  If ""spdlog""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQpolFw,2025-12-16T09:01:41Z,2026-04-27T03:23:19Z,2026-05-01T02:24:04Z,3837,True,camera-service,qualcomm/camera-service,git@github.com:qualcomm/camera-service.git,4,False,False,False,"cmake configure failed (rc=1):  (_FPHSA_FAILURE_MESSAGE)
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/FindProtobuf.cmake:772 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  common/proto/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQpYa2g,2025-12-15T22:04:14Z,2026-04-23T01:02:50Z,2026-05-06T02:22:12Z,55344,False,opensomeip,vtz/opensomeip,git@github.com:vtz/opensomeip.git,37,True,True,True,

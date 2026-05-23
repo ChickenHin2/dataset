@@ -1,0 +1,153 @@
+
+$ git clone --depth 1 --recurse-submodules --shallow-submodules git@github.com:bluefml1/nextGPU-sunshine.git  (cwd=repos)
+
+[TIMEOUT after 180s]
+Cloning into 'nextGPU-sunshine'...
+Updating files:  54% (348/642)Updating files:  55% (354/642)Updating files:  56% (360/642)Updating files:  57% (366/642)Updating files:  58% (373/642)Updating files:  59% (379/642)Updating files:  60% (386/642)Updating files:  61% (392/642)Updating files:  62% (399/642)Updating files:  63% (405/642)Updating files:  64% (411/642)Updating files:  65% (418/642)Updating files:  66% (424/642)Updating files:  67% (431/642)Updating files:  68% (437/642)Updating files:  69% (443/642)Updating files:  70% (450/642)Updating files:  71% (456/642)Updating files:  72% (463/642)Updating files:  73% (469/642)Updating files:  74% (476/642)Updating files:  75% (482/642)Updating files:  76% (488/642)Updating files:  77% (495/642)Updating files:  78% (501/642)Updating files:  79% (508/642)Updating files:  80% (514/642)Updating files:  81% (521/642)Updating files:  82% (527/642)Updating files:  83% (533/642)Updating files:  84% (540/642)Updating files:  85% (546/642)Updating files:  86% (553/642)Updating files:  87% (559/642)Updating files:  88% (565/642)Updating files:  89% (572/642)Updating files:  90% (578/642)Updating files:  91% (585/642)Updating files:  92% (591/642)Updating files:  93% (598/642)Updating files:  94% (604/642)Updating files:  95% (610/642)Updating files:  96% (617/642)Updating files:  97% (623/642)Updating files:  98% (630/642)Updating files:  99% (636/642)Updating files: 100% (642/642)Updating files: 100% (642/642), done.
+Submodule 'packaging/linux/flatpak/deps/flatpak-builder-tools' (https://github.com/flatpak/flatpak-builder-tools.git) registered for path 'packaging/linux/flatpak/deps/flatpak-builder-tools'
+Submodule 'packaging/linux/flatpak/deps/shared-modules' (https://github.com/flathub/shared-modules.git) registered for path 'packaging/linux/flatpak/deps/shared-modules'
+Submodule 'third-party/Simple-Web-Server' (https://github.com/LizardByte-infrastructure/Simple-Web-Server.git) registered for path 'third-party/Simple-Web-Server'
+Submodule 'third-party/TPCircularBuffer' (https://github.com/michaeltyson/TPCircularBuffer.git) registered for path 'third-party/TPCircularBuffer'
+Submodule 'third-party/ViGEmClient' (https://github.com/LizardByte/Virtual-Gamepad-Emulation-Client.git) registered for path 'third-party/ViGEmClient'
+Submodule 'third-party/build-deps' (https://github.com/LizardByte/build-deps.git) registered for path 'third-party/build-deps'
+Submodule 'third-party/doxyconfig' (https://github.com/LizardByte/doxyconfig.git) registered for path 'third-party/doxyconfig'
+Submodule 'third-party/glad' (https://github.com/Dav1dde/glad.git) registered for path 'third-party/glad'
+Submodule 'third-party/googletest' (https://github.com/google/googletest.git) registered for path 'third-party/googletest'
+Submodule 'third-party/inputtino' (https://github.com/games-on-whales/inputtino.git) registered for path 'third-party/inputtino'
+Submodule 'third-party/libdisplaydevice' (https://github.com/LizardByte/libdisplaydevice.git) registered for path 'third-party/libdisplaydevice'
+Submodule 'third-party/moonlight-common-c' (https://github.com/moonlight-stream/moonlight-common-c.git) registered for path 'third-party/moonlight-common-c'
+Submodule 'third-party/nanors' (https://github.com/sleepybishop/nanors.git) registered for path 'third-party/nanors'
+Submodule 'third-party/nv-codec-headers' (https://github.com/FFmpeg/nv-codec-headers.git) registered for path 'third-party/nv-codec-headers'
+Submodule 'third-party/nvapi' (https://github.com/NVIDIA/nvapi.git) registered for path 'third-party/nvapi'
+Submodule 'third-party/tray' (https://github.com/LizardByte/tray.git) registered for path 'third-party/tray'
+Submodule 'third-party/wayland-protocols' (https://github.com/LizardByte-infrastructure/wayland-protocols.git) registered for path 'third-party/wayland-protocols'
+Submodule 'third-party/wlr-protocols' (https://github.com/LizardByte-infrastructure/wlr-protocols.git) registered for path 'third-party/wlr-protocols'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/packaging/linux/flatpak/deps/flatpak-builder-tools'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/packaging/linux/flatpak/deps/shared-modules'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/Simple-Web-Server'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/TPCircularBuffer'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/ViGEmClient'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/doxyconfig'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/glad'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/googletest'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/inputtino'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/libdisplaydevice'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/moonlight-common-c'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/nanors'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/nv-codec-headers'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/nvapi'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/tray'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/wayland-protocols'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/wlr-protocols'...
+From https://github.com/flatpak/flatpak-builder-tools
+ * branch            37eb3e5bdc5a14d13ee27b85265aae2c5e9a60c2 -> FETCH_HEAD
+Submodule path 'packaging/linux/flatpak/deps/flatpak-builder-tools': checked out '37eb3e5bdc5a14d13ee27b85265aae2c5e9a60c2'
+From https://github.com/flathub/shared-modules
+ * branch            a61b4949d10e96e5f8923284a1c847964ac3f9ad -> FETCH_HEAD
+Submodule path 'packaging/linux/flatpak/deps/shared-modules': checked out 'a61b4949d10e96e5f8923284a1c847964ac3f9ad'
+Submodule path 'third-party/Simple-Web-Server': checked out '546895a93a29062bb178367b46c7afb72da9881e'
+Submodule path 'third-party/TPCircularBuffer': checked out 'cc520397504bb72bc6df79ff03eb72988a6dc50d'
+Submodule path 'third-party/ViGEmClient': checked out '8d71f6740ffff4671cdadbca255ce528e3cd3fef'
+From https://github.com/LizardByte/build-deps
+ * branch            91ac60f3a051819d7d9975b8757730a9471ee8de -> FETCH_HEAD
+Submodule path 'third-party/build-deps': checked out '91ac60f3a051819d7d9975b8757730a9471ee8de'
+Submodule 'third-party/FFmpeg/AMF' (https://github.com/GPUOpen-LibrariesAndSDKs/AMF.git) registered for path 'third-party/build-deps/third-party/FFmpeg/AMF'
+Submodule 'third-party/FFmpeg/FFmpeg' (https://github.com/FFmpeg/FFmpeg.git) registered for path 'third-party/build-deps/third-party/FFmpeg/FFmpeg'
+Submodule 'third-party/FFmpeg/SVT-AV1' (https://github.com/LizardByte-infrastructure/SVT-AV1.git) registered for path 'third-party/build-deps/third-party/FFmpeg/SVT-AV1'
+Submodule 'third-party/FFmpeg/Vulkan-Headers' (https://github.com/KhronosGroup/Vulkan-Headers.git) registered for path 'third-party/build-deps/third-party/FFmpeg/Vulkan-Headers'
+Submodule 'third-party/FFmpeg/Vulkan-Loader' (https://github.com/KhronosGroup/Vulkan-Loader.git) registered for path 'third-party/build-deps/third-party/FFmpeg/Vulkan-Loader'
+Submodule 'third-party/FFmpeg/nv-codec-headers' (https://github.com/FFmpeg/nv-codec-headers.git) registered for path 'third-party/build-deps/third-party/FFmpeg/nv-codec-headers'
+Submodule 'third-party/FFmpeg/x264' (https://github.com/LizardByte-infrastructure/x264.git) registered for path 'third-party/build-deps/third-party/FFmpeg/x264'
+Submodule 'third-party/FFmpeg/x265_git' (https://github.com/LizardByte-infrastructure/x265_git.git) registered for path 'third-party/build-deps/third-party/FFmpeg/x265_git'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/AMF'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/FFmpeg'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/SVT-AV1'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/Vulkan-Headers'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/Vulkan-Loader'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/nv-codec-headers'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/x264'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/build-deps/third-party/FFmpeg/x265_git'...
+From https://github.com/GPUOpen-LibrariesAndSDKs/AMF
+ * branch            afed28d37aca1938da2eedc50599bb3535a987ec -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/AMF': checked out 'afed28d37aca1938da2eedc50599bb3535a987ec'
+From https://github.com/FFmpeg/FFmpeg
+ * branch            15504610b0dc12c56e5e9f94ff06c873382368f5 -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/FFmpeg': checked out '15504610b0dc12c56e5e9f94ff06c873382368f5'
+From https://github.com/LizardByte-infrastructure/SVT-AV1
+ * branch            b33dcc56cc64fcb3b3569094af8ab1d0d81ab4c1 -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/SVT-AV1': checked out 'b33dcc56cc64fcb3b3569094af8ab1d0d81ab4c1'
+From https://github.com/KhronosGroup/Vulkan-Headers
+ * branch            ad9ce1235e88dc09287e19171dfac384db8ec32c -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/Vulkan-Headers': checked out 'ad9ce1235e88dc09287e19171dfac384db8ec32c'
+From https://github.com/KhronosGroup/Vulkan-Loader
+ * branch            bac41319cafb4527a2a959237b17611dd08bfe11 -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/Vulkan-Loader': checked out 'bac41319cafb4527a2a959237b17611dd08bfe11'
+From https://github.com/FFmpeg/nv-codec-headers
+ * branch            22441b505d9d9afc1e3002290820909846c24bdc -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/nv-codec-headers': checked out '22441b505d9d9afc1e3002290820909846c24bdc'
+From https://github.com/LizardByte-infrastructure/x264
+ * branch            b35605ace3ddf7c1a5d67a2eb553f034aef41d55 -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/x264': checked out 'b35605ace3ddf7c1a5d67a2eb553f034aef41d55'
+From https://github.com/LizardByte-infrastructure/x265_git
+ * branch            1d117bed4747758b51bd2c124d738527e30392cb -> FETCH_HEAD
+Submodule path 'third-party/build-deps/third-party/FFmpeg/x265_git': checked out '1d117bed4747758b51bd2c124d738527e30392cb'
+From https://github.com/LizardByte/doxyconfig
+ * branch            a9f0c38766e53d29f1141098db237e51ba3d64d8 -> FETCH_HEAD
+Submodule path 'third-party/doxyconfig': checked out 'a9f0c38766e53d29f1141098db237e51ba3d64d8'
+Submodule 'doxygen-awesome-css' (https://github.com/jothepro/doxygen-awesome-css.git) registered for path 'third-party/doxyconfig/doxygen-awesome-css'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/doxyconfig/doxygen-awesome-css'...
+From https://github.com/jothepro/doxygen-awesome-css
+ * branch            1f3620084ff75734ed192101acf40e9dff01d848 -> FETCH_HEAD
+Submodule path 'third-party/doxyconfig/doxygen-awesome-css': checked out '1f3620084ff75734ed192101acf40e9dff01d848'
+From https://github.com/Dav1dde/glad
+ * branch            73db193f853e2ee079bf3ca8a64aa2eaf6459043 -> FETCH_HEAD
+Submodule path 'third-party/glad': checked out '73db193f853e2ee079bf3ca8a64aa2eaf6459043'
+From https://github.com/google/googletest
+ * branch            52eb8108c5bdec04579160ae17225d66034bd723 -> FETCH_HEAD
+Submodule path 'third-party/googletest': checked out '52eb8108c5bdec04579160ae17225d66034bd723'
+From https://github.com/games-on-whales/inputtino
+ * branch            73e9fa11179c86c8801e1dbce1c329d2ca07621a -> FETCH_HEAD
+Submodule path 'third-party/inputtino': checked out '73e9fa11179c86c8801e1dbce1c329d2ca07621a'
+From https://github.com/LizardByte/libdisplaydevice
+ * branch            b46492be8e5d1933ead8fb8867a7910ed10b610a -> FETCH_HEAD
+Submodule path 'third-party/libdisplaydevice': checked out 'b46492be8e5d1933ead8fb8867a7910ed10b610a'
+Submodule 'third-party/doxyconfig' (https://github.com/LizardByte/doxyconfig.git) registered for path 'third-party/libdisplaydevice/third-party/doxyconfig'
+Submodule 'third-party/googletest' (https://github.com/google/googletest.git) registered for path 'third-party/libdisplaydevice/third-party/googletest'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/libdisplaydevice/third-party/doxyconfig'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/libdisplaydevice/third-party/googletest'...
+From https://github.com/LizardByte/doxyconfig
+ * branch            89c8ec928a11e04a75f06a00ddaa3848fc5edf27 -> FETCH_HEAD
+Submodule path 'third-party/libdisplaydevice/third-party/doxyconfig': checked out '89c8ec928a11e04a75f06a00ddaa3848fc5edf27'
+Submodule 'doxygen-awesome-css' (https://github.com/jothepro/doxygen-awesome-css.git) registered for path 'third-party/libdisplaydevice/third-party/doxyconfig/doxygen-awesome-css'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/libdisplaydevice/third-party/doxyconfig/doxygen-awesome-css'...
+From https://github.com/jothepro/doxygen-awesome-css
+ * branch            1f3620084ff75734ed192101acf40e9dff01d848 -> FETCH_HEAD
+Submodule path 'third-party/libdisplaydevice/third-party/doxyconfig/doxygen-awesome-css': checked out '1f3620084ff75734ed192101acf40e9dff01d848'
+From https://github.com/google/googletest
+ * branch            f8d7d77c06936315286eb55f8de22cd23c188571 -> FETCH_HEAD
+Submodule path 'third-party/libdisplaydevice/third-party/googletest': checked out 'f8d7d77c06936315286eb55f8de22cd23c188571'
+From https://github.com/moonlight-stream/moonlight-common-c
+ * branch            62687809b1f7410c3db4be2527503a54ae408d70 -> FETCH_HEAD
+Submodule path 'third-party/moonlight-common-c': checked out '62687809b1f7410c3db4be2527503a54ae408d70'
+Submodule 'enet' (https://github.com/cgutman/enet.git) registered for path 'third-party/moonlight-common-c/enet'
+Submodule 'nanors/deps/simde' (https://github.com/simd-everywhere/simde-no-tests.git) registered for path 'third-party/moonlight-common-c/nanors/deps/simde'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/moonlight-common-c/enet'...
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/moonlight-common-c/nanors/deps/simde'...
+Submodule path 'third-party/moonlight-common-c/enet': checked out 'c7353c059373f8d3fc83d451f8f1a477be3dc94e'
+From https://github.com/simd-everywhere/simde-no-tests
+ * branch            595b743dcebc05756244a66dcd78e9d64c07b3b7 -> FETCH_HEAD
+Submodule path 'third-party/moonlight-common-c/nanors/deps/simde': checked out '595b743dcebc05756244a66dcd78e9d64c07b3b7'
+Submodule path 'third-party/nanors': checked out '19f07b513e924e471cadd141943c1ec4adc8d0e0'
+From https://github.com/FFmpeg/nv-codec-headers
+ * branch            fe32761e7a8bc79fcf560f356bf3898271bf4d56 -> FETCH_HEAD
+Submodule path 'third-party/nv-codec-headers': checked out 'fe32761e7a8bc79fcf560f356bf3898271bf4d56'
+From https://github.com/NVIDIA/nvapi
+ * branch            9296d671e71608d6d6b7749ed93989af4ada8858 -> FETCH_HEAD
+Submodule path 'third-party/nvapi': checked out '9296d671e71608d6d6b7749ed93989af4ada8858'
+From https://github.com/LizardByte/tray
+ * branch            4caf0d0868aa45b98373249db8761551f7da7b03 -> FETCH_HEAD
+Submodule path 'third-party/tray': checked out '4caf0d0868aa45b98373249db8761551f7da7b03'
+Submodule 'third-party/doxyconfig' (https://github.com/LizardByte/doxyconfig.git) registered for path 'third-party/tray/third-party/doxyconfig'
+Submodule 'third-party/googletest' (https://github.com/google/googletest.git) registered for path 'third-party/tray/third-party/googletest'
+Cloning into '/gpfs/work5/0/prjs2109/dataset/repos/nextGPU-sunshine/third-party/tray/third-party/doxyconfig'...

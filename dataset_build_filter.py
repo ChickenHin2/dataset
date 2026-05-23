@@ -32,6 +32,9 @@ LOG_CONF_DIR = Path("./logs/configure")
 LOG_BUILD_DIR = Path("./logs/build")
 LOG_TEST_DIR = Path("./logs/test")
 
+start_idx = 50
+end_idx = 60
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -73,7 +76,7 @@ def run_cmd(cmd: List[str], cwd: Path, log_file, timeout: int,
         return 127, msg
 
 def build_and_test_cmake(repo_dir: Path, log_conf_file, log_build_file, log_test_file) -> Tuple[bool, bool, bool, str]:
-    logging.info("================= build_and_test_cmake")
+    log.info("================= build_and_test_cmake")
     if not repo_dir.exists():
         return False, False, False, f"repo_dir does not exist: {repo_dir}"
     build_dir = repo_dir / "build"
@@ -87,10 +90,12 @@ def build_and_test_cmake(repo_dir: Path, log_conf_file, log_build_file, log_test
          "-DBUILD_TESTS=ON"],
         cwd=repo_dir, log_file=log_conf_file, timeout=600,
     )
-    logging.info(tail)
+    log.info(tail)
     if rc != 0:
         error = f"cmake configure failed (rc={rc}): {tail.strip()[-300:]}"
         return False, False, False, error
+
+    log.info("============== cinfigure finished")
 
     # Build
     rc, tail = run_cmd(
@@ -101,6 +106,8 @@ def build_and_test_cmake(repo_dir: Path, log_conf_file, log_build_file, log_test
         error = f"cmake build failed (rc={rc}): {tail.strip()[-300:]}"
         return True, False, False, error
 
+    log.info("============== build finished")
+
     # Test via ctest
     rc, tail = run_cmd(
         ["ctest", "--test-dir", "build", "--output-on-failure", "--no-tests=error"],
@@ -109,6 +116,7 @@ def build_and_test_cmake(repo_dir: Path, log_conf_file, log_build_file, log_test
     if rc != 0:
         error = f"ctest failed (rc={rc}): {tail.strip()[-300:]}"
         return True, True, False, error
+    log.info("============== test finished")
     return True, True, True, ""
 
 def clone_repo(ssh_url: str, log_file) -> bool:
@@ -117,9 +125,9 @@ def clone_repo(ssh_url: str, log_file) -> bool:
              "--shallow-submodules", ssh_url],
             cwd=REPOS_DIR, log_file=log_file, timeout=180,
         )
-    logging.info("================= clone_repo finish")
+    log.info("================= clone_repo finish")
     if rc != 0:
-        logging.error(f"git clone {ssh_url} failed (rc={rc}): {tail.strip()[-300:]}")
+        log.error(f"git clone {ssh_url} failed (rc={rc}): {tail.strip()[-300:]}")
         return False
     return True
 
@@ -127,8 +135,9 @@ def process_repos(repos: list, file_name: str) -> list:
     for d in (REPOS_DIR, LOG_CLONE_DIR, LOG_CONF_DIR, LOG_BUILD_DIR, LOG_TEST_DIR):
         d.mkdir(parents=True, exist_ok=True)
 
-    for i, repo in enumerate(repos[7:20], 8):
+    for i, repo in enumerate(repos[start_idx: end_idx], start_idx + 1):
         name = repo.get("name", "")
+        log.info("[%d/%d] %s start...", i, len(repos), name)
         ssh_url = repo.get("sshUrl", "")
         if not ssh_url:
             log.warning("[%d/%d] %s has no sshUrl, skipping.", i, len(repos), name)
@@ -166,7 +175,8 @@ def process_repos(repos: list, file_name: str) -> list:
         repo["build"] = build
         repo["test"] = test
         repo["error"] = error
-        save_repo(repo, OUTPUT_DIR_5, file_name)
+        output_file_name = f"repos_{start_idx}_{end_idx}.csv"
+        save_repo(repo, OUTPUT_DIR_5, output_file_name)
 
 def load_all_repos(file_name: str) -> list:
     csv_path = INPUT_DIR / file_name

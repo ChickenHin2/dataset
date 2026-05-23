@@ -1,0 +1,56 @@
+id,createdAt,updatedAt,pushedAt,diskUsage,isInOrganization,name,nameWithOwner,sshUrl,stargazerCount,configure,build,test,error
+R_kgDOQpMi4A,2025-12-15T15:42:11Z,2026-03-22T04:36:17Z,2026-03-31T04:26:33Z,86421,False,rtr2,annajcy/rtr2,git@github.com:annajcy/rtr2.git,0,False,False,False,"cmake configure failed (rc=1): E_PREFIX_PATH or set ""stb_DIR""
+  to a directory containing one of the above files.  If ""stb"" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  external/pbpt/CMakeLists.txt:60 (include)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQnga6g,2025-12-12T12:47:24Z,2026-04-09T17:37:07Z,2026-04-28T17:02:49Z,262,True,entservices-hdmicecsink,rdkcentral/entservices-hdmicecsink,git@github.com:rdkcentral/entservices-hdmicecsink.git,0,False,False,False,"cmake configure failed (rc=1): velopment package or SDK, be sure it
+  has been installed.
+
+
+CMake Error at CMakeLists.txt:34 (string):
+  string no output variable specified
+
+
+CMake Error at CMakeLists.txt:37 (include):
+  include could not find requested file:
+
+    CmakeHelperFunctions
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQndxJg,2025-12-12T11:26:26Z,2026-04-12T11:00:03Z,2026-04-12T10:59:55Z,304179,False,pomaidb,pomagrenate/pomaidb,git@github.com:pomagrenate/pomaidb.git,17,True,False,False,"cmake build failed (rc=2): src/ai/tensor_core/tensorflow/lite/core/model_building.cc:620:19: warning: missing initializer for member ‘TfLiteStablehloCompositeParams::attributes_size’ [-Wmissing-field-initializers]
+gmake[1]: *** [CMakeFiles/Makefile2:435: CMakeFiles/pomai.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2"
+R_kgDOQnYrjw,2025-12-12T08:56:32Z,2026-03-10T19:21:12Z,2026-03-10T19:21:07Z,5973,False,pokemon-fangame-cpp,Mat8313/pokemon-fangame-cpp,git@github.com:Mat8313/pokemon-fangame-cpp.git,1,False,False,False,"cmake configure failed (rc=1): .cmake
+    sfml-config.cmake
+
+  Add the installation prefix of ""SFML"" to CMAKE_PREFIX_PATH or set
+  ""SFML_DIR"" to a directory containing one of the above files.  If ""SFML""
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQnO_Zg,2025-12-12T02:58:58Z,2026-05-06T06:02:40Z,2026-05-06T06:09:09Z,36969,True,paimon-cpp,alibaba/paimon-cpp,git@github.com:alibaba/paimon-cpp.git,116,True,False,False,cmake build failed (rc=124): [TIMEOUT after 1800s]
+R_kgDOQnO1cw,2025-12-12T02:51:55Z,2026-05-01T06:31:52Z,2026-05-01T06:31:46Z,60407,True,IRONSmith,advent-lab/IRONSmith,git@github.com:advent-lab/IRONSmith.git,0,False,False,False,"cmake configure failed (rc=1): Config.cmake
+    qt6-config.cmake
+
+  Add the installation prefix of ""Qt6"" to CMAKE_PREFIX_PATH or set ""Qt6_DIR""
+  to a directory containing one of the above files.  If ""Qt6"" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQnJPRA,2025-12-11T22:13:39Z,2026-04-25T00:10:34Z,2026-04-06T19:47:42Z,2752,True,gqe,rapidsai/gqe,git@github.com:rapidsai/gqe.git,12,False,False,False,"cmake configure failed (rc=1): e.
+Call Stack (most recent call first):
+  /gpfs/admin/_hpc/sw/arch/AMD-ZEN2/RHEL9/EB_production/2025/software/CMake/3.31.3-GCCcore-14.2.0/share/cmake-3.31/Modules/CMakeDetermineCUDACompiler.cmake:85 (cmake_cuda_find_toolkit)
+  CMakeLists.txt:39 (project)
+
+
+-- Configuring incomplete, errors occurred!"
+R_kgDOQnBl4w,2025-12-11T17:41:36Z,2026-03-16T15:54:33Z,2026-03-14T11:01:26Z,5547,True,SEC26Mirror,IEEE-UCF/SEC26Mirror,git@github.com:IEEE-UCF/SEC26Mirror.git,1,False,False,False,"cmake configure failed (rc=1): CMake Error: The source directory ""/gpfs/work5/0/prjs2109/dataset/repos/SEC26Mirror"" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI."
